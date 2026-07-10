@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { CATEGORIES } from '@/lib/recipes'
 
@@ -126,6 +127,14 @@ export function SiteFooter() {
                     </a>
                   </li>
                 ))}
+                <li>
+                  <Link
+                    href="/affiliate-disclosure"
+                    className="text-foreground/80 transition-colors hover:text-primary"
+                  >
+                    Affiliate Disclosure
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
