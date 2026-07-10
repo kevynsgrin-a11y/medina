@@ -16,6 +16,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.tasteofmedina.com'),
   title: 'The Maghreb Culinary Codex — 120 Authentic Culinary Artifacts',
   description:
     'An editorial index of North African gastronomy: 120 authentic culinary artifacts from the Atlantic Coast to the Red Sea. Street food, tagines & stews, Sephardic traditions, and condiments.',

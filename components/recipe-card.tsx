@@ -1,13 +1,17 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { Clock, Flame, ArrowUpRight } from 'lucide-react'
 import type { Recipe } from '@/lib/recipes'
 
+const MotionLink = motion.create(Link)
+
 export function RecipeCard({ recipe, index }: { recipe: Recipe; index: number }) {
   return (
-    <motion.article
+    <MotionLink
+      href={`/recipes/${recipe.id}`}
       layout
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -68,6 +72,6 @@ export function RecipeCard({ recipe, index }: { recipe: Recipe; index: number })
           <ArrowUpRight className="h-4 w-4" />
         </div>
       </div>
-    </motion.article>
+    </MotionLink>
   )
 }
