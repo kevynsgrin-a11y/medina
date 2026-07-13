@@ -8,6 +8,7 @@ import { RecipeHero } from '@/components/recipe-detail/recipe-hero'
 import { IngredientsPanel } from '@/components/recipe-detail/ingredients-panel'
 import { MethodPanel } from '@/components/recipe-detail/method-panel'
 import { NoteCallout } from '@/components/recipe-detail/note-callout'
+import { ChefsNote } from '@/components/recipe-detail/chefs-note'
 import { ShopModule } from '@/components/recipe-detail/shop-module'
 import { SourcesPanel } from '@/components/recipe-detail/sources-panel'
 import { RecipeCard } from '@/components/recipe-card'
@@ -81,11 +82,15 @@ export default async function RecipeDetailPage({
             <IngredientsPanel detail={detail} />
             <MethodPanel detail={detail} />
             <NoteCallout detail={detail} />
+            <ChefsNote detail={detail} />
           </div>
 
           <aside className="space-y-8 lg:border-l lg:border-border lg:pl-8">
             <ShopModule recipe={recipe} detail={detail} />
-            <SourcesPanel crossRefCodes={detail.crossRefCodes} />
+            <SourcesPanel
+              crossRefCodes={detail.crossRefCodes}
+              finalizedSources={detail.finalizedSources}
+            />
           </aside>
         </div>
       </section>
