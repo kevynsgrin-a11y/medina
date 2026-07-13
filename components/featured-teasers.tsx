@@ -1,11 +1,15 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { ArrowUpRight } from 'lucide-react'
 
+const MotionLink = motion.create(Link)
+
 const TEASERS = [
   {
+    id: 1,
     name: 'Tunisian Brik',
     region: 'Tunis',
     tag: 'Street Food',
@@ -14,6 +18,7 @@ const TEASERS = [
     delay: 0,
   },
   {
+    id: 2,
     name: 'Egyptian Koshari',
     region: 'Cairo',
     tag: 'Street Food',
@@ -22,6 +27,7 @@ const TEASERS = [
     delay: 0.6,
   },
   {
+    id: 31,
     name: 'Chicken M’qualli',
     region: 'Fez',
     tag: 'Tagines & Stews',
@@ -50,9 +56,9 @@ export function FeaturedTeasers() {
 
         <div className="grid gap-6 md:grid-cols-3">
           {TEASERS.map((t, i) => (
-            <motion.a
+            <MotionLink
               key={t.name}
-              href="#street-food"
+              href={`/recipes/${t.id}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -97,7 +103,7 @@ export function FeaturedTeasers() {
                   </p>
                 </div>
               </motion.div>
-            </motion.a>
+            </MotionLink>
           ))}
         </div>
       </div>
