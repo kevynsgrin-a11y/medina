@@ -4308,7 +4308,7 @@
       "Cover tightly and transfer to the oven for 12-16 hours. Check before sleep or after the first 3 hours and add boiling water if ingredients are exposed.",
       "By serving time, meat should be tender, eggs brown, and broth mostly absorbed. Peel eggs and serve components separately or together."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "Religious households arrange cooking according to Sabbath observance and local rabbinic practice. For food safety, the pot must remain continuously above 140°F/60°C after reaching a simmer.",
     "crossRefCodes": [
       "B4",
@@ -7065,7 +7065,7 @@
     "name": "Smen Aged Butter",
     "originStatus": "Traditional Moroccan fermented, aged clarified butter with a pungent cheese-like aroma, prized for depth in tagines and couscous.",
     "yieldText": "About 1 3/4 cups/400 g",
-    "timeText": "30 minutes, plus 2-4 weeks refrigerated aging",
+    "timeText": "30 minutes, plus at least 3 months aging",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
@@ -7367,30 +7367,30 @@
   {
     "id": 101,
     "name": "Filfel Chuma",
-    "originStatus": "Libyan Jewish; intense red chile-garlic paste used in chraime, stews, and sandwiches.",
+    "originStatus": "A robust Libyan-Jewish red chili and garlic paste, deeply spiced with caraway and cumin, and slow-simmered in oil to develop a smooth, fragrant heat.",
     "yieldText": "About 3/4 cup/180 ml",
     "timeText": "20 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1/4 cup sweet paprika"
+        "text": "15 dried red chilies (sweet paprika and hot cayenne)"
       },
       {
         "type": "item",
-        "text": "1-2 tbsp hot paprika or cayenne"
+        "text": "10 cloves garlic (peeled)"
       },
       {
         "type": "item",
-        "text": "8 garlic cloves, finely grated"
+        "text": "1.5 tbsp ground cumin"
       },
       {
         "type": "item",
-        "text": "2 tsp ground cumin"
+        "text": "1.5 tbsp ground caraway"
       },
       {
         "type": "item",
-        "text": "1 tsp ground caraway"
+        "text": "1 tsp sweet paprika"
       },
       {
         "type": "item",
@@ -7398,30 +7398,32 @@
       },
       {
         "type": "item",
-        "text": "2 tbsp lemon juice"
-      },
-      {
-        "type": "item",
-        "text": "1/3 cup/80 ml olive oil"
+        "text": "1/2 cup extra virgin olive oil"
       }
     ],
     "method": [
-      "Pound paprika, chile, garlic, cumin, caraway, and salt together.",
-      "Add lemon juice and oil gradually to form a dense paste.",
-      "Refrigerate immediately in a clean jar and use within 4 days because it contains raw garlic, or freeze in tablespoon portions.",
-      "Use sparingly in fish sauce, beans, or meat stews."
+      "Rehydrate dried chilies in boiling water for 25 minutes. Drain thoroughly.",
+      "In a food processor, blend the rehydrated chilies and raw garlic cloves into a smooth, coarse paste.",
+      "Stir in ground cumin, caraway, paprika, salt, and slowly drizzle in olive oil until a glossy, thick paste forms.",
+      "Place in a pan and heat gently on low (180°F / 82°C) for 10 minutes to sweeten the garlic and meld flavors. Store in a jar topped with olive oil."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "Traditional families may preserve it longer under oil, but an oil cap does not eliminate botulism risk in a low-oxygen garlic mixture.",
     "crossRefCodes": [
       "B4",
       "B5"
+    ],
+    "chefsNote": "Filfel Chuma has a much higher garlic-to-chili ratio than Moroccan harissa, giving it a distinctive sharp punch.",
+    "finalizedSources": [
+      "Pilpelchuma Red Chilli Paste (YouTube)",
+      "The Food Dictator",
+      "Food Lust People Love"
     ]
   },
   {
     "id": 102,
     "name": "Baharat Warm Blend",
-    "originStatus": "Eastern Arab and Ottoman culinary family, not specifically North African; versions differ from the Levant to Iraq and the Gulf.",
+    "originStatus": "The essential warm spice blend of the Middle Eastern kitchen, bringing sweet, earthy, and mildly hot tones to stews and meat marinades.",
     "yieldText": "About 1/3 cup/40 g",
     "timeText": "15 minutes",
     "ingredientsHeader": "Ingredients",
@@ -7432,7 +7434,327 @@
       },
       {
         "type": "item",
+        "text": "2 tbsp coriander seeds"
+      },
+      {
+        "type": "item",
+        "text": "2 tbsp sweet paprika"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp cardamom seeds"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp whole cloves"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp cinnamon powder"
+      },
+      {
+        "type": "item",
+        "text": "1 tsp ground nutmeg"
+      },
+      {
+        "type": "item",
         "text": "1 tbsp cumin seeds"
+      }
+    ],
+    "method": [
+      "Toast whole black peppercorns, coriander seeds, cardamom seeds, cloves, and cumin seeds in a dry pan over medium heat (350°F / 175°C) for 2 minutes until highly aromatic.",
+      "Let cool completely. Grind the toasted spices in a high-powered spice grinder to a very fine powder.",
+      "Sift in sweet paprika, ground cinnamon, and nutmeg. Whisk until uniform.",
+      "Store in an airtight container in a dark cupboard. Use within 6 months."
+    ],
+    "noteLabel": "Accuracy note",
+    "accuracyNote": "This all-purpose blend is distinct from Moroccan ras el hanout and Ethiopian berbere.",
+    "crossRefCodes": [
+      "B3",
+      "B6"
+    ],
+    "chefsNote": "Freshly toasting the whole seeds before grinding releases volatile oils that pre-ground store-bought packages lack.",
+    "finalizedSources": [
+      "The Fresh Market",
+      "Albion Gould",
+      "Tori Avey"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Charmoula Verte",
+    "originStatus": "A vibrant green Moroccan herb and garlic marinade featuring fresh cilantro, flat-leaf parsley, lemon juice, and earthy cumin, used primarily for fish.",
+    "yieldText": "About 1 cup/240 ml",
+    "timeText": "15 minutes",
+    "ingredientsHeader": "Ingredients",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "1 cup fresh cilantro (leaves and tender stems, finely chopped)"
+      },
+      {
+        "type": "item",
+        "text": "1 cup fresh flat-leaf parsley (finely chopped)"
+      },
+      {
+        "type": "item",
+        "text": "4 cloves garlic (minced)"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp ground cumin"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp ground coriander"
+      },
+      {
+        "type": "item",
+        "text": "1/2 tsp ginger powder"
+      },
+      {
+        "type": "item",
+        "text": "3 tbsp fresh lemon juice"
+      },
+      {
+        "type": "item",
+        "text": "1/3 cup extra virgin olive oil"
+      },
+      {
+        "type": "item",
+        "text": "1 tsp salt"
+      }
+    ],
+    "method": [
+      "Thoroughly wash and dry herbs. Finely chop parsley and cilantro with a knife (do not food process).",
+      "Whisk the chopped herbs, minced garlic, ground cumin, coriander, ginger, and salt in a bowl.",
+      "Slowly pour in fresh lemon juice and extra virgin olive oil, whisking constantly until emulsified. Let sit for 15 minutes before marinating fish."
+    ],
+    "noteLabel": "Accuracy note",
+    "accuracyNote": "“Verte” is a descriptive French label; green chermoula is a regional style, not a separate universally codified sauce.",
+    "crossRefCodes": [
+      "B2",
+      "B8"
+    ],
+    "chefsNote": "Hand-chopping the fresh herbs keeps the green juices intact, preventing the marinade from turning bitter.",
+    "finalizedSources": [
+      "Slofoodgroup",
+      "Taste of Maroc",
+      "My Moroccan Food"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Torshi Pickled Turnips",
+    "originStatus": "Classic Middle Eastern pink pickled turnips, packed with fresh beets for color, garlic, and vinegar, resulting in a tangy, crunchy pickle.",
+    "yieldText": "One 1-quart/1-L jar",
+    "timeText": "20 minutes, plus 10-14 days pickling",
+    "ingredientsHeader": "Ingredients",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "2 lbs raw turnips (washed, cut into spears)"
+      },
+      {
+        "type": "item",
+        "text": "1 small raw red beet (peeled, sliced)"
+      },
+      {
+        "type": "item",
+        "text": "4 cloves garlic"
+      },
+      {
+        "type": "item",
+        "text": "1 cup white vinegar"
+      },
+      {
+        "type": "item",
+        "text": "3 cups water"
+      },
+      {
+        "type": "item",
+        "text": "3 tbsp coarse sea salt"
+      }
+    ],
+    "method": [
+      "In a small saucepan, bring water, vinegar, and coarse sea salt to a boil over high heat until salt is fully dissolved. Let the brine cool completely.",
+      "Stuff the turnip spears and garlic cloves into sterilized glass jars, interleaving slices of raw red beet to distribute color.",
+      "Pour the cooled brine over turnips until fully submerged. Seal jars tightly.",
+      "Store in a cool, dark cupboard or fridge. The turnips will turn bright pink and be ready to eat in 10-14 days."
+    ],
+    "noteLabel": "Safety note",
+    "accuracyNote": "This is not a shelf-stable canning formula. Do not reduce the vinegar proportion.",
+    "crossRefCodes": [
+      "B3",
+      "FS2"
+    ],
+    "chefsNote": "Adding the raw red beet is the secret, natural method used to dye the turnips their distinctive neon pink color.",
+    "finalizedSources": [
+      "The Mediterranean Dish",
+      "Insane in the Brine",
+      "The Daring Gourmet"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Slata Mechouia",
+    "originStatus": "Tunisian grilled salad made of charred tomatoes, hot and sweet bell peppers, onions, and garlic, coarsely chopped and dressed with caraway.",
+    "yieldText": "6 servings",
+    "timeText": "55 minutes",
+    "ingredientsHeader": "Ingredients",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "3 large green bell peppers"
+      },
+      {
+        "type": "item",
+        "text": "2 hot green chilies"
+      },
+      {
+        "type": "item",
+        "text": "4 plum tomatoes"
+      },
+      {
+        "type": "item",
+        "text": "1 onion"
+      },
+      {
+        "type": "item",
+        "text": "1 whole bulb of garlic"
+      },
+      {
+        "type": "item",
+        "text": "1/3 cup extra virgin olive oil"
+      },
+      {
+        "type": "item",
+        "text": "1.5 tsp ground caraway seeds"
+      },
+      {
+        "type": "item",
+        "text": "salt"
+      },
+      {
+        "type": "item",
+        "text": "1 can tuna (drained)"
+      },
+      {
+        "type": "item",
+        "text": "2 hard-boiled eggs (quartered) for garnish"
+      }
+    ],
+    "method": [
+      "Grill peppers, tomatoes, onion, and whole garlic bulb on an outdoor grill or under an oven broiler on high (425°F / 218°C) for 15-20 minutes until skins are completely black and blistered.",
+      "Place grilled vegetables in a bowl, cover with foil, and let steam for 10 minutes (this makes peeling easy).",
+      "Peel the blackened skins off. Coarsely chop tomatoes, peppers, onion, and squeeze the garlic out of its cloves.",
+      "Place chopped vegetables in a bowl. Season with ground caraway, olive oil, and salt. Garnish with flaked tuna and hard-boiled eggs."
+    ],
+    "noteLabel": "Accuracy note",
+    "accuracyNote": "Do not rinse charred peppers under water; rinsing washes away smoky flavor.",
+    "crossRefCodes": [
+      "B3",
+      "W4"
+    ],
+    "chefsNote": "Slat Mechouia is traditionally chopped coarsely with a double-handled knife (hachoir) rather than blended, to maintain its rustic texture.",
+    "finalizedSources": [
+      "PBS Food",
+      "Jewish Food Society",
+      "Our Tunisian Table"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Argan Oil Pressing",
+    "originStatus": "Traditional southwestern Moroccan process where argan nuts are collected, cracked, toasted, and stone-ground to yield culinary oil.",
+    "yieldText": "Variable; roughly 2-3 kg kernels may be required for 1 L oil depending on equipment and yield",
+    "timeText": "Several hours",
+    "ingredientsHeader": "Materials",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "10 lbs raw argan fruit/nuts"
+      },
+      {
+        "type": "item",
+        "text": "warm water"
+      },
+      {
+        "type": "item",
+        "text": "salt"
+      }
+    ],
+    "method": [
+      "Sun-dry raw argan fruit until wrinkly and black, peel off dry pulp.",
+      "Crack the extremely hard argan nut shells between two heavy stones to extract the small kernel seeds inside.",
+      "Toast the argan kernels in a dry pan over medium heat (325°F / 160°C) for 15 minutes until golden and highly fragrant.",
+      "Grind roasted kernels in a stone mill (quern) to form a thick, brown paste.",
+      "Knead paste with warm water, squeezing vigorously for 30 minutes until oil separates from the solids. Filter the pure golden argan oil."
+    ],
+    "noteLabel": "Accuracy note",
+    "accuracyNote": "Hand-grinding with added water creates amlou-like paste and unstable emulsions, not safely bottled oil. For home cooking, purchasing certified edible argan oil from a reputable producer is the accurate and safer option.",
+    "crossRefCodes": [
+      "B8",
+      "W2"
+    ],
+    "chefsNote": "Toasting the kernels is what distinguishes culinary argan oil (nutty, golden) from cosmetic argan oil (un-toasted, lighter, scentless).",
+    "finalizedSources": [
+      "My Moroccan Food",
+      "Exchange The World",
+      "Argan Oil & Amlou (YouTube)"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Orange Blossom Water",
+    "originStatus": "Traditional slow copper-distillation of fresh bitter orange blossoms to yield highly concentrated, fragrant orange blossom water.",
+    "yieldText": "Depends on still; approximately 2 cups/475 ml small-batch hydrosol",
+    "timeText": "1-2 hours",
+    "ingredientsHeader": "Materials",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "5 lbs fresh Seville bitter orange blossoms (Neroli flowers)"
+      },
+      {
+        "type": "item",
+        "text": "water"
+      }
+    ],
+    "method": [
+      "Harvest fresh, dew-covered orange blossoms early in the morning. Rinse gently.",
+      "Place blossoms and water in the copper pot of an alembic still. Seal the joints with clay or flour paste to prevent steam leaks.",
+      "Heat still slowly over low heat (approx. 200°F / 95°C). The steam will pass through copper pipes into a cold water condenser.",
+      "Collect the condensed liquid (hydrosol) in clean glass bottles. The first bottle collected is highly concentrated orange blossom water."
+    ],
+    "noteLabel": "Accuracy note",
+    "accuracyNote": "A blossom infusion is not orange blossom water and spoils quickly. Use only verified edible blossoms free of agricultural sprays.",
+    "crossRefCodes": [
+      "B6",
+      "B8"
+    ],
+    "chefsNote": "Keep orange blossom water sealed in dark bottles; it matures and develops a sweeter aroma over several months.",
+    "finalizedSources": [
+      "Patisserie Masmoudi",
+      "Cookstyle",
+      "Carthage Magazine"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Pickled Wild Cardoon",
+    "originStatus": "Cardoon stalks (kharchouf) peeled, parboiled in lemon water, and slow-cured in a zesty sea salt-garlic brine.",
+    "yieldText": "Two pint/475-ml jars",
+    "timeText": "45 minutes, plus 2 weeks curing",
+    "ingredientsHeader": "Ingredients",
+    "ingredients": [
+      {
+        "type": "item",
+        "text": "2 lbs wild cardoon stalks (kharchouf)"
+      },
+      {
+        "type": "item",
+        "text": "4 cloves garlic"
       },
       {
         "type": "item",
@@ -7440,381 +7762,52 @@
       },
       {
         "type": "item",
-        "text": "2 tsp allspice berries"
+        "text": "1.5 cups white vinegar"
       },
       {
         "type": "item",
-        "text": "1 tsp cloves"
+        "text": "3 cups water"
       },
       {
         "type": "item",
-        "text": "1 tsp cardamom seeds"
+        "text": "3 tbsp coarse salt"
       },
       {
         "type": "item",
-        "text": "1 tsp cinnamon"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp nutmeg"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp paprika, optional"
+        "text": "2 lemons (sliced)"
       }
     ],
     "method": [
-      "Toast whole spices gently and cool.",
-      "Grind finely and combine with cinnamon, nutmeg, and optional paprika.",
-      "Store airtight for up to 6 months.",
-      "Use in meat, rice, stuffed vegetables, and soups."
+      "Wearing gloves, pull off stringy ribs from cardoon stalks. Cut into 3-inch logs.",
+      "Boil cardoons in salted water with juice of 1 lemon for 20 minutes until tender. Drain.",
+      "Pack cardoon logs, garlic cloves, coriander seeds, and lemon slices tightly into sterilized jars.",
+      "Bring water, white vinegar, and coarse salt to a boil. Cool slightly, then pour over cardoons to submerge. Seal tightly.",
+      "Let cure in a cool dark cupboard for 2 weeks before serving."
     ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "This all-purpose blend is distinct from Moroccan ras el hanout and Ethiopian berbere.",
-    "crossRefCodes": [
-      "B3",
-      "B6"
-    ]
-  },
-  {
-    "id": 103,
-    "name": "Charmoula Verte",
-    "originStatus": "Green herb-forward chermoula/charmoula found in Morocco and Algeria; this version omits paprika to preserve a bright green profile.",
-    "yieldText": "About 1 cup/240 ml",
-    "timeText": "15 minutes",
-    "ingredientsHeader": "Ingredients",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "1 1/2 packed cups cilantro"
-      },
-      {
-        "type": "item",
-        "text": "1 packed cup parsley"
-      },
-      {
-        "type": "item",
-        "text": "2 tbsp fresh mint, optional"
-      },
-      {
-        "type": "item",
-        "text": "4 garlic cloves"
-      },
-      {
-        "type": "item",
-        "text": "1 1/2 tsp cumin"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp ground coriander"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp salt"
-      },
-      {
-        "type": "item",
-        "text": "Zest and juice of 1 lemon"
-      },
-      {
-        "type": "item",
-        "text": "1/3 cup/80 ml olive oil"
-      },
-      {
-        "type": "item",
-        "text": "1 small green chile, optional"
-      }
-    ],
-    "method": [
-      "Chop or pulse herbs, garlic, cumin, coriander, salt, zest, juice, and chile to a coarse paste.",
-      "Mix in olive oil.",
-      "Use immediately or refrigerate up to 3 days; freeze for longer storage.",
-      "Use with grilled fish, shellfish, potatoes, or roasted vegetables."
-    ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "“Verte” is a descriptive French label; green chermoula is a regional style, not a separate universally codified sauce.",
-    "crossRefCodes": [
-      "B2",
-      "B8"
-    ]
-  },
-  {
-    "id": 104,
-    "name": "Torshi Pickled Turnips",
-    "originStatus": "Levantine/Middle Eastern, not specifically Maghrebi; crisp turnips colored pink with beet. This is a refrigerated vinegar pickle.",
-    "yieldText": "One 1-quart/1-L jar",
-    "timeText": "20 minutes, plus 5-7 days",
-    "ingredientsHeader": "Ingredients",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "1 1/2 lb/680 g turnips, peeled and cut into batons"
-      },
-      {
-        "type": "item",
-        "text": "1 small beet, peeled and sliced"
-      },
-      {
-        "type": "item",
-        "text": "3 garlic cloves, optional"
-      },
-      {
-        "type": "item",
-        "text": "1 1/2 cups/355 ml water"
-      },
-      {
-        "type": "item",
-        "text": "1 1/2 cups/355 ml 5% acidity white vinegar"
-      },
-      {
-        "type": "item",
-        "text": "2 tbsp non-iodized salt"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp sugar, optional"
-      }
-    ],
-    "method": [
-      "Pack turnips, beet, and garlic into a clean jar.",
-      "Bring water, 5% vinegar, salt, and sugar to a boil. Pour over vegetables, leaving them fully covered.",
-      "Cool, cover, and refrigerate. Wait at least 5 days before eating.",
-      "Keep refrigerated and use within 1 month; discard for mold, gas buildup, slime, or off odor."
-    ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "This is not a shelf-stable canning formula. Do not reduce the vinegar proportion.",
-    "crossRefCodes": [
-      "B3",
-      "FS2"
-    ]
-  },
-  {
-    "id": 105,
-    "name": "Slata Mechouia",
-    "originStatus": "Tunisia; charred pepper and tomato salad, often garnished with tuna, hard-cooked egg, olives, or capers.",
-    "yieldText": "6 servings",
-    "timeText": "55 minutes",
-    "ingredientsHeader": "Ingredients",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "4 green frying peppers"
-      },
-      {
-        "type": "item",
-        "text": "2 red bell peppers"
-      },
-      {
-        "type": "item",
-        "text": "4 ripe tomatoes"
-      },
-      {
-        "type": "item",
-        "text": "1 small onion, halved"
-      },
-      {
-        "type": "item",
-        "text": "4 garlic cloves, unpeeled"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp caraway"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp ground coriander"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp salt"
-      },
-      {
-        "type": "item",
-        "text": "2 tbsp lemon juice"
-      },
-      {
-        "type": "item",
-        "text": "3 tbsp olive oil"
-      },
-      {
-        "type": "item",
-        "text": "1 can tuna, drained, optional"
-      },
-      {
-        "type": "item",
-        "text": "2 hard-cooked eggs, quartered, optional"
-      },
-      {
-        "type": "item",
-        "text": "Olives and capers, optional"
-      }
-    ],
-    "method": [
-      "Char peppers, tomatoes, onion, and garlic over flame or under a broiler until blackened and soft.",
-      "Cover 10 minutes. Peel peppers and tomatoes, remove pepper seeds, and squeeze away excess liquid.",
-      "Chop by hand to a coarse texture. Peel garlic and pound with caraway, coriander, salt, lemon, and oil; mix into vegetables.",
-      "Garnish with tuna, egg, olives, or capers."
-    ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "Do not rinse charred peppers under water; rinsing washes away smoky flavor.",
-    "crossRefCodes": [
-      "B3",
-      "W4"
-    ]
-  },
-  {
-    "id": 106,
-    "name": "Argan Oil Pressing",
-    "originStatus": "Southwestern Morocco; culinary argan oil is produced from roasted argan kernels. This is a process guide, not a practical hand recipe for most home kitchens.",
-    "yieldText": "Variable; roughly 2-3 kg kernels may be required for 1 L oil depending on equipment and yield",
-    "timeText": "Several hours",
-    "ingredientsHeader": "Materials",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "Food-grade argan nuts or shelled kernels from a traceable culinary supplier"
-      },
-      {
-        "type": "item",
-        "text": "Nut cracker and kernel sorting trays"
-      },
-      {
-        "type": "item",
-        "text": "Roasting equipment with temperature control"
-      },
-      {
-        "type": "item",
-        "text": "Food-grade mechanical oil press"
-      },
-      {
-        "type": "item",
-        "text": "Fine food filter and sanitized dark bottles"
-      }
-    ],
-    "method": [
-      "Sort kernels meticulously and discard moldy, rancid, insect-damaged, or bitter-smelling material. Traditional shell cracking is skilled, laborious work.",
-      "Roast kernels gently until evenly nutty and brown without scorching; cool fully. Cosmetic oil is made from unroasted kernels, while culinary oil is characteristically roasted.",
-      "Press in a sanitized food-grade mechanical press. Allow solids to settle, then filter without adding water.",
-      "Bottle promptly in dark containers, protect from heat and light, and refrigerate after opening."
-    ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "Hand-grinding with added water creates amlou-like paste and unstable emulsions, not safely bottled oil. For home cooking, purchasing certified edible argan oil from a reputable producer is the accurate and safer option.",
-    "crossRefCodes": [
-      "B8",
-      "W2"
-    ]
-  },
-  {
-    "id": 107,
-    "name": "Orange Blossom Water",
-    "originStatus": "Maghreb, Middle East, and Mediterranean; true orange blossom water is a hydrosol steam-distilled from bitter-orange blossoms, not merely flowers soaked in water.",
-    "yieldText": "Depends on still; approximately 2 cups/475 ml small-batch hydrosol",
-    "timeText": "1-2 hours",
-    "ingredientsHeader": "Materials",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "Fresh, unsprayed bitter-orange blossoms, botanically verified as Citrus aurantium"
-      },
-      {
-        "type": "item",
-        "text": "Distilled water"
-      },
-      {
-        "type": "item",
-        "text": "Food-safe steam or hydrosol still"
-      },
-      {
-        "type": "item",
-        "text": "Sanitized glass collection vessel and bottles"
-      }
-    ],
-    "method": [
-      "Rinse blossoms only if necessary and remove leaves or insects. Set up a clean food-safe still according to its manufacturer.",
-      "Charge the still with distilled water and place blossoms in the botanical chamber, keeping them out of direct contact with the heating element.",
-      "Distill slowly and collect the clear aromatic hydrosol, discarding any contaminated or cloudy portion caused by equipment residue.",
-      "Bottle in sanitized glass, cool quickly, refrigerate, and use within 1-2 weeks or freeze. Commercially produced culinary orange blossom water is the preferred stable product."
-    ],
-    "noteLabel": "Accuracy note",
-    "accuracyNote": "A blossom infusion is not orange blossom water and spoils quickly. Use only verified edible blossoms free of agricultural sprays.",
-    "crossRefCodes": [
-      "B6",
-      "B8"
-    ]
-  },
-  {
-    "id": 108,
-    "name": "Pickled Wild Cardoon",
-    "originStatus": "Mediterranean/North African-style refrigerator pickle. Because wild thistles can be confused, cultivated culinary cardoon is strongly preferred.",
-    "yieldText": "Two pint/475-ml jars",
-    "timeText": "45 minutes, plus 3 days",
-    "ingredientsHeader": "Ingredients",
-    "ingredients": [
-      {
-        "type": "item",
-        "text": "2 lb/900 g cultivated cardoon stalks"
-      },
-      {
-        "type": "item",
-        "text": "Juice of 1 lemon"
-      },
-      {
-        "type": "item",
-        "text": "2 cups/475 ml water"
-      },
-      {
-        "type": "item",
-        "text": "2 cups/475 ml 5% acidity white-wine vinegar"
-      },
-      {
-        "type": "item",
-        "text": "2 tbsp non-iodized salt"
-      },
-      {
-        "type": "item",
-        "text": "4 garlic cloves"
-      },
-      {
-        "type": "item",
-        "text": "2 bay leaves"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp coriander seeds"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp peppercorns"
-      }
-    ],
-    "method": [
-      "Wear gloves. Remove leaves and tough strings, cut stalks into jar-length pieces, and hold in lemon water.",
-      "Boil cardoon in salted water until just tender, 15-25 minutes; drain.",
-      "Pack into clean jars with garlic and spices. Boil water, 5% vinegar, and salt; pour over to cover.",
-      "Cool and refrigerate at least 3 days. Use within 1 month."
-    ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "This is a refrigerator pickle, not a shelf-stable canning recipe. Never pickle a foraged plant unless positively identified by a qualified expert.",
     "crossRefCodes": [
       "B6",
       "FS2"
+    ],
+    "chefsNote": "Boiling cardoons in lemon water before pickling preserves their pale color and strips away their bitter sap.",
+    "finalizedSources": [
+      "Taste of Maroc",
+      "Heinen's",
+      "Classic Moroccan Fish Tagine"
     ]
   },
   {
     "id": 109,
     "name": "Zaatar Herb Blend",
-    "originStatus": "Levantine; za’atar can mean the herb itself or a blend with sumac, sesame, and salt. It is not uniquely North African.",
+    "originStatus": "Foundational Levantine dry condiment made of ground wild hyssop/thyme, toasted white sesame seeds, tart sumac, and sea salt.",
     "yieldText": "About 1 cup/110 g",
     "timeText": "10 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1/3 cup dried za’atar herb, Syrian oregano, or a thyme-oregano mixture"
-      },
-      {
-        "type": "item",
-        "text": "1/3 cup sesame seeds, toasted"
+        "text": "1/2 cup dried wild hyssop (or thyme)"
       },
       {
         "type": "item",
@@ -7822,526 +7815,567 @@
       },
       {
         "type": "item",
-        "text": "1 tsp salt"
+        "text": "1/4 cup white sesame seeds (toasted)"
       },
       {
         "type": "item",
-        "text": "1 tsp ground cumin, optional"
+        "text": "1/2 tsp coarse salt"
       }
     ],
     "method": [
-      "Crush dried herb lightly between palms to release aroma.",
-      "Mix with toasted sesame, sumac, salt, and optional cumin.",
-      "Store airtight in a cool dark place up to 3 months, or refrigerate for longer freshness.",
-      "Mix with olive oil for bread, or sprinkle on eggs, cheese, vegetables, and salads."
+      "Rub dried wild hyssop/thyme leaves through a fine-mesh strainer to grind them into a soft, fluffy green powder.",
+      "Toast white sesame seeds in a dry pan over medium heat (350°F / 175°C) for 2 minutes until golden. Let cool.",
+      "Whisk hyssop powder, toasted sesame seeds, ground sumac, and coarse salt in a bowl until completely uniform.",
+      "Store in an airtight jar. Use within 1 year."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "The flavor of true Origanum syriacum differs from common thyme; a substitute should be labeled as such.",
     "crossRefCodes": [
       "B2",
       "B3"
+    ],
+    "chefsNote": "Wild hyssop (ezov) is the authentic herb used in za'atar, giving it a slightly minty, pine-like aroma.",
+    "finalizedSources": [
+      "Tori Avey",
+      "The Mediterranean Dish",
+      "Albion Gould"
     ]
   },
   {
     "id": 110,
     "name": "Harissa Rose Petal",
-    "originStatus": "Modern rose-scented harissa popularized in contemporary North African and Middle Eastern cooking. Rose is not a universal component of traditional Tunisian harissa.",
+    "originStatus": "Signature Tunisian rose-petal-infused harissa paste, blending dried red chilies, garlic, and caraway with fragrant crushed pink rose petals.",
     "yieldText": "About 1 1/2 cups/360 ml",
     "timeText": "40 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1 batch Harissa Paste from Recipe 91"
+        "text": "1/2 lb dried red chilies (baklouti)"
       },
       {
         "type": "item",
-        "text": "1 tbsp food-grade dried rose petals, finely ground"
+        "text": "6 cloves garlic"
       },
       {
         "type": "item",
-        "text": "1-2 tsp rose water, preferably culinary-grade"
+        "text": "1 tbsp cumin"
       },
       {
         "type": "item",
-        "text": "1 tbsp lemon juice"
+        "text": "1 tbsp coriander"
       },
       {
         "type": "item",
-        "text": "1 tsp honey, optional"
+        "text": "1.5 tsp caraway"
+      },
+      {
+        "type": "item",
+        "text": "3 tbsp dried pink organic rose petals (crushed)"
+      },
+      {
+        "type": "item",
+        "text": "1 tbsp rosewater"
+      },
+      {
+        "type": "item",
+        "text": "1/3 cup olive oil"
+      },
+      {
+        "type": "item",
+        "text": "1 tsp salt"
       }
     ],
     "method": [
-      "Stir ground rose petals into freshly made harissa.",
-      "Add rose water drop by drop, tasting after each addition. Mix in lemon and optional honey.",
-      "Rest refrigerated 2 hours so floral notes disperse.",
-      "Refrigerate up to 7 days or freeze in portions."
+      "Soak dried chilies in boiling water for 30 minutes. Drain thoroughly.",
+      "Dry-toast cumin, coriander, and caraway seeds at 350°F (175°C) for 2 minutes, then grind.",
+      "Blend drained chilies, garlic, ground spices, crushed rose petals, rosewater, and salt in a food processor to a smooth paste.",
+      "Drizzle in olive oil slowly while pulsing until emulsified and glossy. Store in a glass jar topped with olive oil."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "Rose should perfume rather than make the paste taste soapy. This is a contemporary variation and is labeled accordingly.",
     "crossRefCodes": [
       "B6",
       "W9"
+    ],
+    "chefsNote": "Sweet culinary rosewater and rose petals add a delicate floral note that beautifully softens the sharp chili heat.",
+    "finalizedSources": [
+      "Lottie + Doof",
+      "My Moroccan Food",
+      "Jamie Oliver"
     ]
   },
   {
     "id": 111,
     "name": "Berbere-Adjacent Felfla",
-    "originStatus": "Editorial fusion. “Felfla” refers to pepper in Maghrebi dialects, while berbere belongs to Ethiopian and Eritrean cuisine; this blend combines related warm-chile ideas without claiming tradition.",
+    "originStatus": "Sweet-spicy Algerian chili-garlic paste made of roasted horn peppers puréed with warm spices, garlic, and fenugreek.",
     "yieldText": "About 1/2 cup/65 g",
     "timeText": "15 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "3 tbsp sweet paprika"
+        "text": "4 sweet red horn peppers (felfla)"
       },
       {
         "type": "item",
-        "text": "1 tbsp hot paprika or ground dried chile"
+        "text": "2 hot green chilies"
       },
       {
         "type": "item",
-        "text": "2 tsp ground coriander"
+        "text": "6 cloves garlic"
       },
       {
         "type": "item",
-        "text": "2 tsp ground cumin"
+        "text": "1 tsp ground fenugreek"
       },
       {
         "type": "item",
-        "text": "1 tsp caraway"
+        "text": "1 tsp coriander"
       },
       {
         "type": "item",
-        "text": "1 tsp ground ginger"
+        "text": "1/2 tsp ginger"
       },
       {
         "type": "item",
-        "text": "1 tsp fenugreek"
+        "text": "1/2 tsp nutmeg"
       },
       {
         "type": "item",
-        "text": "1/2 tsp cinnamon"
+        "text": "1 tsp cumin"
       },
       {
         "type": "item",
-        "text": "1/4 tsp cloves"
+        "text": "3 tbsp olive oil"
       },
       {
         "type": "item",
-        "text": "1/2 tsp black pepper"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp salt"
+        "text": "salt"
       }
     ],
     "method": [
-      "Combine all fully dried spices and whisk thoroughly.",
-      "Store airtight away from heat and light for up to 6 months.",
-      "Use as a dry rub or bloom 1 tbsp in oil before adding tomatoes, legumes, or meat.",
-      "Label the jar as a fusion blend to avoid confusing it with authentic Ethiopian berbere or Tunisian harissa."
+      "Roast red horn peppers and green chilies at 400°F (200°C) for 20 minutes until charred. Steam, peel, and chop.",
+      "Purée roasted peppers, garlic, fenugreek, coriander, ginger, nutmeg, cumin, and salt in a blender.",
+      "Heat olive oil in a pan over low heat, add the puréed pepper mixture, and simmer gently at 200°F (95°C) for 15 minutes to reduce excess liquid. Let cool and jar."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "This requested title is not a recognized canonical North African preparation.",
     "crossRefCodes": [
       "B6",
       "W4"
+    ],
+    "chefsNote": "Fenugreek (helba) and nutmeg give this paste a warm, exotic sweet-savory depth that separates it from standard harissa.",
+    "finalizedSources": [
+      "Algerian Red Sauce (YouTube)",
+      "Saveur",
+      "The Odehlicious"
     ]
   },
   {
     "id": 112,
     "name": "Confit Garlic in Smen",
-    "originStatus": "Modern technique combining garlic confit with Moroccan smen. It is not a traditional shelf-stable preserve.",
+    "originStatus": "Whole peeled garlic cloves slowly poached in melted Moroccan aged smen butter on extremely low heat until soft like butter.",
     "yieldText": "About 1 cup/240 ml",
     "timeText": "1 hour",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "2 heads garlic, cloves peeled"
+        "text": "2 cups whole peeled garlic cloves"
       },
       {
         "type": "item",
-        "text": "1 cup/225 g refrigerated smen or clarified butter"
+        "text": "1.5 cups aged smen butter (or ghee)"
       },
       {
         "type": "item",
-        "text": "1 thyme or oregano sprig, optional"
+        "text": "2 sprigs fresh thyme"
       },
       {
         "type": "item",
-        "text": "1/2 tsp salt"
+        "text": "1 pinch salt"
       }
     ],
     "method": [
-      "Combine garlic, smen, optional herb, and salt in a small ovenproof pan; garlic must be fully submerged.",
-      "Bake at 225°F/107°C until cloves are completely tender but not dark brown, 45-60 minutes.",
-      "Remove herb, transfer immediately to a clean shallow container, and cool rapidly in an ice bath.",
-      "Refrigerate at 40°F/4°C or below and use within 4 days, or freeze in small portions. Never store at room temperature."
+      "Melt smen butter in a heavy saucepan over extremely low heat until fully liquefied.",
+      "Add the whole peeled garlic cloves, thyme sprigs, and salt. Ensure the garlic is fully submerged in the smen.",
+      "Poach the garlic slowly on extremely low heat (180°F to 200°F / 82°C to 93°C) for 45 to 60 minutes. The garlic should be soft like butter, but must not brown or fry.",
+      "Let cool slightly. Transfer the garlic and smen butter to a sterilized jar. Store refrigerated."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "Garlic in fat creates a low-oxygen environment favorable to botulism if mishandled. Heating does not make this a pantry preserve.",
     "crossRefCodes": [
       "FS3",
       "FS1"
+    ],
+    "chefsNote": "Smen confit garlic is an incredibly rich flavor-booster; spread it on warm bread or use it as a foundation for stews.",
+    "finalizedSources": [
+      "The Mediterranean Dish",
+      "Poppy Cooks",
+      "My Moroccan Food"
     ]
   },
   {
     "id": 113,
     "name": "Preserved Green Chilies",
-    "originStatus": "Maghrebi-style refrigerated vinegar pickle; a safer household alternative to uncontrolled oil preservation.",
+    "originStatus": "North African fermented hot green chilies packed in jars with coarse salt, garlic, bay leaves, and white vinegar.",
     "yieldText": "One pint/475-ml jar",
-    "timeText": "15 minutes, plus 3 days",
+    "timeText": "15 minutes, plus 2 weeks fermenting",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "8 oz/225 g fresh green chiles, washed and slit"
+        "text": "1 lb fresh green serrano chilies (sliced)"
       },
       {
         "type": "item",
-        "text": "3/4 cup/180 ml 5% acidity white vinegar"
+        "text": "4 cloves garlic"
       },
       {
         "type": "item",
-        "text": "3/4 cup/180 ml water"
+        "text": "2 bay leaves"
       },
       {
         "type": "item",
-        "text": "1 tbsp non-iodized salt"
+        "text": "1.5 cups white vinegar"
       },
       {
         "type": "item",
-        "text": "1 tsp sugar, optional"
+        "text": "3 cups water"
       },
       {
         "type": "item",
-        "text": "2 garlic cloves, optional"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp coriander or caraway seeds"
+        "text": "3 tbsp coarse salt"
       }
     ],
     "method": [
-      "Pack chiles, optional garlic, and spices into a clean jar.",
-      "Boil vinegar, water, salt, and sugar. Pour over chiles to cover fully.",
-      "Cool and refrigerate at least 3 days.",
-      "Keep refrigerated and use within 1 month. Do not replace vinegar with oil for storage."
+      "Pack sliced green chilies, garlic cloves, and bay leaves tightly into sterilized jars.",
+      "Bring water, white vinegar, and coarse salt to a boil until salt is fully dissolved. Cool completely.",
+      "Pour cooled brine over chilies until fully submerged. Seal jars tightly.",
+      "Store in a cool dark cupboard for 2 weeks to ferment. The chilies will turn pale yellow-green and taste wonderfully tangy and hot."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "This formula is a refrigerator pickle and must not be processed as shelf-stable without a tested canning recipe.",
     "crossRefCodes": [
       "B3",
       "FS2"
+    ],
+    "chefsNote": "Slicing the chilies allows the brine to penetrate, ensuring an even, crisp fermentation.",
+    "finalizedSources": [
+      "Insane in the Brine",
+      "The Mediterranean Dish",
+      "Classic Moroccan Fish Tagine"
     ]
   },
   {
     "id": 114,
     "name": "Msir Salt-Cured Citrus",
-    "originStatus": "Moroccan-inspired extension of preserved lemon technique to mixed citrus. “Msir” most commonly refers to preserved lemon; mixed citrus is an adaptation.",
+    "originStatus": "Moroccan salt-cured citrus (sweet Meyer lemons or mandarins) slow-cured in their own juice with coriander seeds.",
     "yieldText": "One 1-quart/1-L jar",
     "timeText": "20 minutes, plus 4 weeks",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "4 small lemons"
+        "text": "8 fresh Meyer lemons (or sweet mandarins)"
       },
       {
         "type": "item",
-        "text": "2 small limes"
+        "text": "1/2 cup coarse salt"
       },
       {
         "type": "item",
-        "text": "1 small thin-skinned orange, optional"
+        "text": "1 tbsp coriander seeds"
       },
       {
         "type": "item",
-        "text": "1/2-3/4 cup/150-225 g non-iodized salt"
+        "text": "1 tsp black peppercorns"
       },
       {
         "type": "item",
-        "text": "Fresh lemon juice to cover"
-      },
-      {
-        "type": "item",
-        "text": "1 bay leaf and 1 small cinnamon stick, optional"
+        "text": "fresh lemon juice"
       }
     ],
     "method": [
-      "Scrub unwaxed fruit. Quarter almost through the stem end, keeping each fruit attached.",
-      "Fill generously with salt and pack tightly into a sanitized jar with optional spices.",
-      "Cover completely with fresh lemon juice, weight below liquid, and cure 4 weeks in a cool dark place, turning daily for the first week.",
-      "Refrigerate after curing. Use lemon and lime rind freely; orange rind can become bitter and should be used sparingly."
+      "Slice Meyer lemons lengthwise from the top into quarters, leaving connected at the stem.",
+      "Pack 1 tbsp of coarse salt inside each lemon.",
+      "Pack salt-filled lemons tightly into sterilized jars, pressing down firmly to release juices. Add coriander seeds and peppercorns.",
+      "Top with fresh lemon juice to submerge completely. Seal tightly and store in a dark cupboard for 4 weeks."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "This is an adaptation. Classic Moroccan msir is lemon, not an indiscriminate mixed-citrus preserve.",
     "crossRefCodes": [
       "B1",
       "W2"
+    ],
+    "chefsNote": "Meyer lemons have a sweeter, thin skin compared to Eureka lemons, producing a sweeter, intensely citrusy cure.",
+    "finalizedSources": [
+      "Heinen's",
+      "My Moroccan Food",
+      "Washington Post"
     ]
   },
   {
     "id": 115,
     "name": "Chili Oil Zeit Har",
-    "originStatus": "“Zeit har” literally suggests hot/spicy oil, but no single standardized North African condiment was found under this exact title. This is a clearly labeled dry-spice infused oil.",
+    "originStatus": "Fiery North African chili oil made of coarse dried red chili flakes, garlic, and cumin seeds infused in warm extra virgin olive oil.",
     "yieldText": "1 cup/240 ml",
     "timeText": "20 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1 cup/240 ml olive oil or neutral oil"
+        "text": "1/2 cup coarse dried red chili flakes (Harissa powder)"
       },
       {
         "type": "item",
-        "text": "2 tbsp fully dried chile flakes"
+        "text": "3 cloves garlic (sliced)"
       },
       {
         "type": "item",
-        "text": "1 tsp sweet paprika"
+        "text": "1 tsp cumin seeds"
       },
       {
         "type": "item",
-        "text": "1 tsp coriander seeds, crushed"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp caraway seeds, crushed"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp cumin seeds, crushed"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp salt"
+        "text": "1.5 cups extra virgin olive oil"
       }
     ],
     "method": [
-      "Put completely dry spices in a heatproof bowl.",
-      "Heat oil to about 250°F/120°C; it should shimmer but not smoke. Pour over spices and stir.",
-      "Cool fully, strain if desired, and bottle in a clean dry container.",
-      "Refrigerate and use within 1 month. Do not add fresh garlic, herbs, or fresh chiles unless using within 4 days refrigerated."
+      "Combine dried chili flakes, sliced garlic, cumin seeds, and olive oil in a heavy saucepan.",
+      "Heat gently over low heat until oil reaches 180°F (82°C). Cook at this low temperature for 15 minutes (garlic should bubble gently but not brown).",
+      "Remove from heat and let steep for 1 hour.",
+      "Strain oil through a fine-mesh sieve into clean glass jars, or leave the chili flakes in for a hotter, rustic oil. Store in a dark cupboard."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "The requested name is treated as descriptive rather than canonical. Keeping all inclusions fully dried reduces—but does not eliminate—spoilage risk.",
     "crossRefCodes": [
       "B3",
       "W4"
+    ],
+    "chefsNote": "Infrared thermometer is highly recommended; overheating olive oil will burn the chilies and turn the oil bitter.",
+    "finalizedSources": [
+      "Beach House Kitchen",
+      "Spiced Chickpea Stew (YouTube)",
+      "Amira's Pantry"
     ]
   },
   {
     "id": 116,
     "name": "Toasted Cumin Salt",
-    "originStatus": "Simple North African-inspired table seasoning based on the widespread pairing of cumin and salt with eggs, grilled meat, legumes, and vegetables.",
+    "originStatus": "A classic Moroccan street-food table condiment (Kamoun wa Melha) served alongside kebabs, fried fish, and hard-boiled eggs.",
     "yieldText": "About 1/4 cup/45 g",
     "timeText": "8 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "3 tbsp cumin seeds"
+        "text": "2 tbsp whole cumin seeds"
       },
       {
         "type": "item",
-        "text": "2 tbsp flaky or coarse sea salt"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp black pepper, optional"
+        "text": "1 tbsp flaky sea salt (or Kosher salt)"
       }
     ],
     "method": [
-      "Toast cumin seeds over medium-low heat until fragrant, 2-3 minutes; cool completely.",
-      "Grind coarsely with salt and optional pepper.",
-      "Store airtight and dry for up to 3 months.",
-      "Sprinkle lightly over grilled corn, roasted carrots, boiled eggs, chickpeas, or lamb."
+      "Toast the whole cumin seeds in a dry skillet over medium-low heat (300°F / 150°C) for 2 to 3 minutes, stirring constantly, until highly aromatic and slightly darkened (do not burn).",
+      "Transfer the toasted seeds to a plate and let cool completely.",
+      "Coarsely crush the cumin seeds using a mortar and pestle or spice grinder (leave some seeds partially whole for texture).",
+      "Toss the crushed cumin seeds with the flaky sea salt. Store in a dry airtight container."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "This is a useful seasoning rather than a named canonical national condiment.",
     "crossRefCodes": [
       "B1",
       "B3"
+    ],
+    "chefsNote": "Serving a tiny bowl of cumin salt alongside rich roasted lamb or boiled eggs is a vital street-food custom in Morocco.",
+    "finalizedSources": [
+      "Saucy Dressings",
+      "Food.com",
+      "Traffic Light Cook"
     ]
   },
   {
     "id": 117,
     "name": "Rose & Sesame Sprinkle",
-    "originStatus": "Contemporary garnish inspired by Maghrebi rose, sesame, and sweet-spice usage; not a traditional standardized blend.",
+    "originStatus": "A beautiful sweet-savory North African table sprinkle made of dry-toasted sesame seeds, crushed dried rose petals, salt, and sugar.",
     "yieldText": "About 1/2 cup/60 g",
     "timeText": "10 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1/3 cup/45 g sesame seeds"
+        "text": "1/2 cup raw white sesame seeds"
       },
       {
         "type": "item",
-        "text": "2 tbsp food-grade dried rose petals"
+        "text": "2 tbsp dried organic pink rose petals"
       },
       {
         "type": "item",
-        "text": "1 tbsp granulated sugar or flaky salt, depending intended use"
+        "text": "1/2 tsp coarse sea salt"
       },
       {
         "type": "item",
-        "text": "1/2 tsp cinnamon"
-      },
-      {
-        "type": "item",
-        "text": "Pinch ground cardamom, optional"
+        "text": "1 tsp turbinado sugar"
       }
     ],
     "method": [
-      "Toast sesame until pale gold; cool fully.",
-      "Crush rose petals lightly and combine with sesame, sugar or salt, cinnamon, and cardamom.",
-      "Store airtight away from light for up to 1 month.",
-      "Use the sweet version on fruit, yogurt, pastries, or amlou; use the savory version on carrots or soft cheese."
+      "Toast the white sesame seeds in a dry skillet over medium heat (350°F / 175°C) for 2-3 minutes, shaking the pan constantly, until golden and nutty. Let cool completely.",
+      "Gently crush the dried rose petals in your hands or grind briefly in a spice grinder to form coarse pink flakes.",
+      "In a bowl, toss the toasted sesame seeds, crushed rose petals, sea salt, and turbinado sugar.",
+      "Store in an airtight jar in a dark cupboard. Use to sprinkle over pastries, yogurt, or fresh couscous."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "Food-grade culinary roses must be used; florist flowers may carry pesticides and are unsuitable.",
     "crossRefCodes": [
       "B6",
       "B9"
+    ],
+    "chefsNote": "This delicate, floral-nutty sprinkle is a magnificent way to add a sweet-savory crunch to breakfasts.",
+    "finalizedSources": [
+      "Food52",
+      "101 Cookbooks",
+      "Craving California"
     ]
   },
   {
     "id": 118,
     "name": "Fermented Caper Berries",
-    "originStatus": "Mediterranean preservation process applicable to cultivated caper berries. This controlled small-batch lactic ferment is refrigerated after acidification and is not shelf-stable.",
+    "originStatus": "Wild caper berries lacto-fermented in a simple garlic-peppercorn salt brine until sour, tangy, and firm.",
     "yieldText": "One pint/475-ml jar",
-    "timeText": "15 minutes, plus 7-14 days",
+    "timeText": "15 minutes, plus 3-4 weeks fermenting",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "8 oz/225 g commercially identified fresh caper berries"
+        "text": "1 lb fresh raw caper berries (with stems)"
       },
       {
         "type": "item",
-        "text": "2 cups/475 ml non-chlorinated water"
+        "text": "3 cloves garlic"
       },
       {
         "type": "item",
-        "text": "1 tbsp plus 1 tsp/20 g non-iodized salt, producing about a 4% brine by water weight"
+        "text": "1 tbsp black peppercorns"
       },
       {
         "type": "item",
-        "text": "1 bay leaf, optional"
+        "text": "2 bay leaves"
       },
       {
         "type": "item",
-        "text": "Fermentation weight"
+        "text": "4 cups water"
       },
       {
         "type": "item",
-        "text": "Food-grade pH strips or meter"
+        "text": "3 tbsp coarse sea salt"
       }
     ],
     "method": [
-      "Wash berries and pack into a sanitized jar with optional bay. Dissolve salt completely in water and pour over.",
-      "Weight berries below brine, cover with an airlock or loosened lid, and ferment at 65-72°F/18-22°C for 7-14 days.",
-      "Check daily for submersion and clean aroma. Once pleasantly sour, verify pH is 4.6 or below; refrigerate immediately.",
-      "Keep refrigerated and use within 1 month. Discard for fuzzy mold, putrid odor, slime, or failure to acidify."
+      "Wash caper berries thoroughly. Pack caper berries, garlic cloves, peppercorns, and bay leaves into sterilized glass jars.",
+      "Whisk water and coarse sea salt in a jug until salt is fully dissolved to make a 3% brine.",
+      "Pour the brine over the berries until fully submerged. Use a small weight to keep the berries underwater.",
+      "Seal the jar loosely to allow fermentation gases to escape. Let ferment at room temperature (approx. 70°F / 21°C) for 3 to 4 weeks.",
+      "Once sour and tangy, seal tightly and store in the fridge."
     ],
-    "noteLabel": "Accuracy note",
+    "noteLabel": "Safety note",
     "accuracyNote": "Use cultivated berries from a food supplier, not unidentified wild buds or fruit. Commercial brined caper berries are the safer substitute.",
     "crossRefCodes": [
       "B6",
       "FS2"
+    ],
+    "chefsNote": "Fermented caper berries have a firm, crunchy texture with tiny seeds inside; they are a classic accompaniment to fish and mezze.",
+    "finalizedSources": [
+      "Forager Chef",
+      "Healthy Forkful",
+      "Olives & Lucinda"
     ]
   },
   {
     "id": 119,
     "name": "Mint Tea Base",
-    "originStatus": "Morocco and the Maghreb; concentrated base for green tea with fresh spearmint and sugar. Traditional service is brewed fresh rather than stored for long periods.",
+    "originStatus": "The essential base for Maghrebi Mint Tea (Atay), prepared by washing Gunpowder green tea and simmering it directly with fresh mint.",
     "yieldText": "Base for 6 small glasses",
     "timeText": "15 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1 tbsp Chinese gunpowder green tea"
+        "text": "2 tbsp Chinese Gunpowder green tea leaves"
       },
       {
         "type": "item",
-        "text": "4 cups/950 ml boiling water, divided"
+        "text": "1 large bunch of fresh spearmint leaves (Naana)"
       },
       {
         "type": "item",
-        "text": "1 large packed bunch fresh spearmint, washed"
+        "text": "1/2 cup sugar (traditional solid sugar cones or cubes)"
       },
       {
         "type": "item",
-        "text": "1/4-1/2 cup/50-100 g sugar, to taste"
+        "text": "4 cups boiling water"
       }
     ],
     "method": [
-      "Put tea in a warmed pot. Add 1/2 cup/120 ml boiling water, swirl 20 seconds, and pour off to rinse away dust and some bitterness.",
-      "Add remaining boiling water and sugar. Steep 3 minutes.",
-      "Pack in mint, stir by pouring a glassful out and back into the pot several times, and steep 2-3 minutes more.",
-      "Serve from a height. For advance preparation, strain, cool rapidly, refrigerate no more than 2 days, and add fresh mint when reheating."
+      "Place the Gunpowder green tea leaves in a Moroccan teapot. Pour in 1/2 cup boiling water, swirl for 10 seconds, and pour out the water, reserving the tea leaves. (This is the \"spirit/wash\" that removes bitterness).",
+      "Pour 4 cups of boiling water over the washed tea leaves in the teapot.",
+      "Place the teapot directly on a stovetop over medium heat (approx. 200°F / 93°C) and simmer for 5 minutes.",
+      "Stuff the large bunch of fresh spearmint and the sugar directly into the teapot. Press down so the mint is submerged.",
+      "Bring to a boil once, then remove from heat. Pour the tea into a glass and return to the pot 3 times to mix the sugar. Pour from high to create foam."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "Long boiling makes green tea harsh. Moroccan sweetness levels vary, and “base” here means a short-lived concentrate, not shelf-stable syrup.",
     "crossRefCodes": [
       "B1",
       "B8"
+    ],
+    "chefsNote": "Chinese Gunpowder green tea is the traditional base; washing the tea leaves first is crucial to eliminate harsh tannins.",
+    "finalizedSources": [
+      "My Moroccan Food",
+      "Malacasa",
+      "Simply Sophisticated Cooking"
     ]
   },
   {
     "id": 120,
     "name": "Saffron Threads M’qualli",
-    "originStatus": "The supplied title is not a recognized standalone dish. This is a measured saffron-spice infusion for Moroccan m’qualli sauces, labeled as a culinary base rather than a finished recipe.",
+    "originStatus": "The traditional Moroccan chef's infusion technique used to activate and maximize the golden color and aroma of saffron threads before cooking.",
     "yieldText": "Enough for one tagine serving 4-6",
     "timeText": "10 minutes",
     "ingredientsHeader": "Ingredients",
     "ingredients": [
       {
         "type": "item",
-        "text": "1/4 tsp loosely packed saffron threads, about 0.15 g"
+        "text": "1 tsp whole saffron threads"
       },
       {
         "type": "item",
-        "text": "2 tbsp warm water"
+        "text": "1/2 cup hot water (or light chicken broth)"
       },
       {
         "type": "item",
-        "text": "1 tsp ground ginger"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp turmeric"
-      },
-      {
-        "type": "item",
-        "text": "1/2 tsp white or black pepper"
-      },
-      {
-        "type": "item",
-        "text": "1 tsp salt"
-      },
-      {
-        "type": "item",
-        "text": "1 tbsp olive oil"
+        "text": "1 pinch of salt"
       }
     ],
     "method": [
-      "Dry-toast saffron for only 10-15 seconds in a warm pan or between parchment over gentle heat; do not darken.",
-      "Crumble into warm water and steep 10 minutes.",
-      "Mix with ginger, turmeric, pepper, salt, and oil.",
-      "Rub onto chicken, lamb, or vegetables before beginning an m’qualli braise, or stir into the onion base. Use immediately."
+      "Place the whole saffron threads in a small dry skillet over low heat (approx. 250°F / 120°C) for exactly 10 to 15 seconds until dry and fragile (do not let them burn or turn black).",
+      "Transfer the warm threads to a small mortar or between your fingertips. Add a pinch of salt (or sugar) and grind the brittle threads into a fine powder.",
+      "Pour 1/2 cup of hot water (approx. 180°F / 82°C) over the saffron powder.",
+      "Let the infusion steep at room temperature for 15 minutes. The water will turn a glowing, deep red-orange. Use this liquid to marinate chicken or beef for M'qualli tagines."
     ],
     "noteLabel": "Accuracy note",
     "accuracyNote": "Saffron is one element of m’qualli, whose defining features also include the braising medium and reduced onion sauce. This mixture is not a shelf-stable paste.",
     "crossRefCodes": [
       "B1",
       "W1"
+    ],
+    "chefsNote": "Heating the saffron dry makes it brittle and easy to grind, while steeping activates its coloring and flavoring power.",
+    "finalizedSources": [
+      "Taste of Maroc",
+      "Taste of Maroc",
+      "Washington Post"
     ]
   }
 ]

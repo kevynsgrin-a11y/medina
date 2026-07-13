@@ -176,7 +176,9 @@ export const PANTRY_PRODUCTS: ShopProduct[] = [
     label: 'Whole Cloves',
     note: 'For warming spice mixes and mulled tea.',
     query: 'whole cloves spice',
-    test: (t) => /(?<!garlic )\bcloves?\b/i.test(t),
+    // Match the spice, not garlic: skip "garlic cloves", "cloves garlic",
+    // and "cloves of garlic".
+    test: (t) => /(?<!garlic )\bcloves?\b(?!\s+(?:of\s+)?garlic)/i.test(t),
   },
   {
     id: 'moroccan-olives',

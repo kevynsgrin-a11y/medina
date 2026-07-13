@@ -8,6 +8,13 @@ import type { Recipe } from '@/lib/recipes'
 
 const MotionLink = motion.create(Link)
 
+function formatMinutes(minutes: number): string {
+  if (minutes < 60) return `${minutes}m`
+  const hours = Math.floor(minutes / 60)
+  const rest = minutes % 60
+  return rest ? `${hours}h ${rest}m` : `${hours}h`
+}
+
 export function RecipeCard({ recipe, index }: { recipe: Recipe; index: number }) {
   return (
     <MotionLink
@@ -61,7 +68,7 @@ export function RecipeCard({ recipe, index }: { recipe: Recipe; index: number })
           <span>{recipe.region}</span>
           <span className="flex items-center gap-1">
             <Clock className="h-3 w-3" />
-            {recipe.minutes}m
+            {formatMinutes(recipe.minutes)}
           </span>
         </div>
         <h3 className="font-serif text-lg leading-tight tracking-tight text-balance">
