@@ -199,3 +199,29 @@ export const SOURCES: Record<string, Source> = {
 export function resolveSources(codes: string[]): Source[] {
   return codes.map((c) => SOURCES[c]).filter(Boolean)
 }
+
+// Maps the free-text web-source names captured during the finalized recipe
+// development pass to a vetted URL, but ONLY when the name matches a source
+// already present in the bibliography above. Unmatched names are shown as
+// plain-text attributions (no fabricated links).
+const FINALIZED_SOURCE_URLS: Record<string, string> = {
+  'taste of maroc': SOURCES.W1.url,
+  'my moroccan food': SOURCES.W2.url,
+  'my moorish plate': SOURCES.W3.url,
+  'our tunisian table': SOURCES.W4.url,
+  'the mediterranean dish': SOURCES.W5.url,
+  "amira's pantry": SOURCES.W6.url,
+  'spanish sabores': SOURCES.W13.url,
+  'jewish food society': SOURCES.W10.url,
+  'tasteatlas': SOURCES.W16.url,
+}
+
+export type FinalizedSource = { name: string; url?: string }
+
+export function resolveFinalizedSources(names: string[] | undefined): FinalizedSource[] {
+  if (!names) return []
+  return names.map((name) => {
+    const url = FINALIZED_SOURCE_URLS[name.trim().toLowerCase()]
+    return url ? { name, url } : { name }
+  })
+}

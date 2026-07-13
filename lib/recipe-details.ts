@@ -23,6 +23,11 @@ export type RecipeDetail = {
   noteLabel: NoteLabel
   accuracyNote: string
   crossRefCodes: string[]
+  /** Optional kitchen tip from the finalized recipe development pass. */
+  chefsNote?: string
+  /** Free-text names of the web sources consulted while finalizing the recipe.
+   * Rendered as attributions; linked when the name resolves to a known source. */
+  finalizedSources?: string[]
 }
 
 export const RECIPE_DETAILS: RecipeDetail[] = raw as RecipeDetail[]
