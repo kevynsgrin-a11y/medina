@@ -1,11 +1,28 @@
 import type { Metadata } from 'next'
 import { DetailNav } from '@/components/recipe-detail/detail-nav'
 import { SiteFooter } from '@/components/site-footer'
+import { SITE_NAME, SITE_URL } from '@/lib/schema'
+
+const url = `${SITE_URL}/affiliate-disclosure`
 
 export const metadata: Metadata = {
   title: 'Affiliate disclosure',
   description:
     'How The Maghreb Culinary Codex uses affiliate links to support the archive.',
+  alternates: { canonical: url },
+  openGraph: {
+    title: 'Affiliate disclosure',
+    description: 'How The Maghreb Culinary Codex uses affiliate links to support the archive.',
+    type: 'website',
+    url,
+    siteName: SITE_NAME,
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Affiliate disclosure',
+    description: 'How The Maghreb Culinary Codex uses affiliate links to support the archive.',
+  },
 }
 
 export default function AffiliateDisclosurePage() {

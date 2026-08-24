@@ -1,10 +1,27 @@
 import type { Metadata } from 'next'
 import { DetailNav } from '@/components/recipe-detail/detail-nav'
 import { SiteFooter } from '@/components/site-footer'
+import { SITE_NAME, SITE_URL } from '@/lib/schema'
+
+const url = `${SITE_URL}/privacy`
 
 export const metadata: Metadata = {
   title: 'Privacy notice',
   description: 'Privacy notice for The Maghreb Culinary Codex.',
+  alternates: { canonical: url },
+  openGraph: {
+    title: 'Privacy notice',
+    description: 'Privacy notice for The Maghreb Culinary Codex.',
+    type: 'website',
+    url,
+    siteName: SITE_NAME,
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy notice',
+    description: 'Privacy notice for The Maghreb Culinary Codex.',
+  },
 }
 
 export default function PrivacyPage() {

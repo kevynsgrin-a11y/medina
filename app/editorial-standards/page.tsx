@@ -1,10 +1,27 @@
 import type { Metadata } from 'next'
 import { DetailNav } from '@/components/recipe-detail/detail-nav'
 import { SiteFooter } from '@/components/site-footer'
+import { SITE_NAME, SITE_URL } from '@/lib/schema'
+
+const url = `${SITE_URL}/editorial-standards`
 
 export const metadata: Metadata = {
   title: 'Editorial standards',
   description: 'How The Maghreb Culinary Codex presents recipe records, sources, and safety notes.',
+  alternates: { canonical: url },
+  openGraph: {
+    title: 'Editorial standards',
+    description: 'How The Maghreb Culinary Codex presents recipe records, sources, and safety notes.',
+    type: 'website',
+    url,
+    siteName: SITE_NAME,
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Editorial standards',
+    description: 'How The Maghreb Culinary Codex presents recipe records, sources, and safety notes.',
+  },
 }
 
 export default function EditorialStandardsPage() {
