@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 
@@ -19,13 +17,15 @@ export function DetailNav() {
           </span>
         </Link>
 
-        <Link
-          href="/"
-          className="group flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:border-primary/50 hover:text-foreground"
-        >
-          <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" />
-          Back to the Codex
-        </Link>
+        <nav aria-label="Recipe detail">
+          <Link
+            href="/"
+            className="group flex min-h-11 items-center gap-2 rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:border-primary/50 hover:text-foreground"
+          >
+            <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5 group-focus-visible:-translate-x-0.5" aria-hidden="true" />
+            Back to the Codex
+          </Link>
+        </nav>
       </div>
     </header>
   )

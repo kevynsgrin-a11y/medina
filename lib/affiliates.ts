@@ -1,14 +1,17 @@
 // Monetization layer: curated "Shop this recipe" product suggestions.
 //
-// Uses Amazon Associates search-link affiliate URLs (no hardcoded ASINs, so
-// links never go stale/discontinued). Replace the tag below with your real
-// Associates tracking ID once approved — see README.md "Affiliate setup".
-import type { Category, Recipe } from './recipes'
+// Shop links only render when a verified Amazon Associates tracking ID is
+// configured. This avoids attaching an unverified or inherited tracking ID
+// to reader clicks.
+import type { Recipe } from './recipes'
 
-const AMAZON_TAG = process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG || 'tasteofmedina-20'
+const AMAZON_TAG = process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG?.trim()
 
-export function amazonSearchUrl(query: string): string {
-  const params = new URLSearchParams({ k: query, tag: AMAZON_TAG })
+export const isAmazonAffiliateEnabled = Boolean(AMAZON_TAG)
+
+export function amazonSearchUrl(query: string, includeAffiliateTag = true): string {
+  const params = new URLSearchParams({ k: query })
+  if (includeAffiliateTag && AMAZON_TAG) params.set('tag', AMAZON_TAG)
   return `https://www.amazon.com/s?${params.toString()}`
 }
 
@@ -260,6 +263,8 @@ export const EQUIPMENT_PRODUCTS: EquipmentProduct[] = [
 export type ShopLink = { id: string; label: string; note: string; url: string }
 
 export function shopLinksForRecipe(recipe: Recipe, ingredientTexts: string[], max = 4): ShopLink[] {
+  if (!isAmazonAffiliateEnabled) return []
+
   const haystack = ingredientTexts.map((t) => t.toLowerCase()).join(' | ')
   const pantryMatches = PANTRY_PRODUCTS.filter(
     (p) => !p.excludeRecipeIds?.includes(recipe.id) && p.test(haystack),

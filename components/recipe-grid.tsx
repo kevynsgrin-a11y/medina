@@ -1,7 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { useEffect, useMemo, useState } from 'react'
 import { SearchX } from 'lucide-react'
 import { CATEGORIES, RECIPES, type Category } from '@/lib/recipes'
 import { RecipeCard } from '@/components/recipe-card'
@@ -11,83 +10,85 @@ type Filter = 'All' | Category
 export function RecipeGrid({ query }: { query: string }) {
   const [filter, setFilter] = useState<Filter>('All')
 
+  useEffect(() => {
+    const applyHashFilter = () => {
+      const slug = window.location.hash.slice(1)
+      const category = CATEGORIES.find((entry) => entry.slug === slug)
+      if (category) setFilter(category.label)
+    }
+
+    applyHashFilter()
+    window.addEventListener('hashchange', applyHashFilter)
+    return () => window.removeEventListener('hashchange', applyHashFilter)
+  }, [])
+
   const normalizedQuery = query.trim().toLowerCase()
+  const filtered = useMemo(
+    () =>
+      RECIPES.filter((recipe) => {
+        const matchesFilter = filter === 'All' || recipe.category === filter
+        const matchesQuery =
+          !normalizedQuery ||
+          recipe.name.toLowerCase().includes(normalizedQuery) ||
+          recipe.region.toLowerCase().includes(normalizedQuery) ||
+          recipe.category.toLowerCase().includes(normalizedQuery)
+        return matchesFilter && matchesQuery
+      }),
+    [filter, normalizedQuery],
+  )
 
-  const filtered = useMemo(() => {
-    return RECIPES.filter((r) => {
-      const matchesFilter = filter === 'All' || r.category === filter
-      const matchesQuery =
-        !normalizedQuery ||
-        r.name.toLowerCase().includes(normalizedQuery) ||
-        r.region.toLowerCase().includes(normalizedQuery) ||
-        r.category.toLowerCase().includes(normalizedQuery)
-      return matchesFilter && matchesQuery
-    })
-  }, [filter, normalizedQuery])
-
-  const filters: Filter[] = ['All', ...CATEGORIES.map((c) => c.label)]
+  const filters: Filter[] = ['All', ...CATEGORIES.map((category) => category.label)]
 
   return (
-    <section className="relative mx-auto max-w-7xl px-5 py-24 md:px-8">
-      {/* anchor targets for category nav links */}
-      {CATEGORIES.map((c) => (
-        <span key={c.slug} id={c.slug} className="block -translate-y-24" />
+    <section className="relative mx-auto max-w-7xl px-5 py-24 md:px-8" aria-labelledby="recipe-index-heading">
+      {CATEGORIES.map((category) => (
+        <span key={category.slug} id={category.slug} className="block -translate-y-24" aria-hidden="true" />
       ))}
 
       <div className="flex flex-col gap-6 border-b border-border pb-8">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.4em] text-primary">
-              The Index
-            </p>
-            <h2 className="mt-3 font-serif text-4xl leading-tight tracking-tight text-balance sm:text-5xl">
-              120 Culinary Artifacts
+            <p className="text-xs uppercase tracking-[0.4em] text-primary">The index</p>
+            <h2 id="recipe-index-heading" className="mt-3 font-serif text-4xl leading-tight tracking-tight text-balance sm:text-5xl">
+              120 culinary records
             </h2>
           </div>
           <p className="hidden max-w-xs text-right text-sm leading-relaxed text-muted-foreground md:block">
-            An exhaustive index of North African gastronomy, cataloged by
-            region, heat, and tradition.
+            Browse records by region, heat, category, and culinary tradition.
           </p>
         </div>
 
-        {/* Category filters */}
-        <div className="flex flex-wrap items-center gap-2">
-          {filters.map((f) => {
-            const active = filter === f
+        <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filter recipe records">
+          {filters.map((option) => {
+            const active = filter === option
             const count =
-              f === 'All'
+              option === 'All'
                 ? RECIPES.length
-                : RECIPES.filter((r) => r.category === f).length
+                : RECIPES.filter((recipe) => recipe.category === option).length
+
             return (
               <button
-                key={f}
+                key={option}
                 type="button"
-                onClick={() => setFilter(f)}
+                onClick={() => setFilter(option)}
+                aria-pressed={active}
                 className={`relative rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                   active
-                    ? 'border-primary text-primary-foreground'
+                    ? 'border-primary bg-primary text-primary-foreground'
                     : 'border-border text-muted-foreground hover:border-primary/50 hover:text-foreground'
                 }`}
               >
-                {active && (
-                  <motion.span
-                    layoutId="filter-pill"
-                    className="absolute inset-0 -z-10 rounded-full bg-primary"
-                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                  />
-                )}
-                {f}
-                <span className="ml-1.5 text-xs opacity-70">{count}</span>
+                {option}
+                <span className="ml-1.5 text-xs">{count}</span>
               </button>
             )
           })}
         </div>
       </div>
 
-      {/* Results */}
-      <p className="mt-8 text-sm text-muted-foreground" aria-live="polite">
+      <p className="mt-8 text-sm text-muted-foreground" role="status" aria-live="polite" aria-atomic="true">
         Showing <span className="text-foreground">{filtered.length}</span>{' '}
-        {filtered.length === 1 ? 'artifact' : 'artifacts'}
+        {filtered.length === 1 ? 'entry' : 'entries'}
         {normalizedQuery && (
           <>
             {' '}
@@ -98,24 +99,18 @@ export function RecipeGrid({ query }: { query: string }) {
 
       {filtered.length === 0 ? (
         <div className="flex flex-col items-center gap-4 py-24 text-center">
-          <SearchX className="h-10 w-10 text-muted-foreground" />
-          <p className="font-serif text-2xl">No artifacts found</p>
+          <SearchX className="h-10 w-10 text-muted-foreground" aria-hidden="true" />
+          <p className="font-serif text-2xl">No records found</p>
           <p className="max-w-sm text-sm text-muted-foreground">
-            The codex is deep, but this query came up empty. Try a region like
-            “Fez” or a dish like “tagine”.
+            Try a region such as “Fez” or a dish such as “tagine”.
           </p>
         </div>
       ) : (
-        <motion.div
-          layout
-          className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:gap-6"
-        >
-          <AnimatePresence mode="popLayout">
-            {filtered.map((recipe, i) => (
-              <RecipeCard key={recipe.id} recipe={recipe} index={i} />
-            ))}
-          </AnimatePresence>
-        </motion.div>
+        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:gap-6">
+          {filtered.map((recipe) => (
+            <RecipeCard key={recipe.id} recipe={recipe} />
+          ))}
+        </div>
       )}
     </section>
   )

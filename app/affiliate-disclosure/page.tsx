@@ -3,51 +3,52 @@ import { DetailNav } from '@/components/recipe-detail/detail-nav'
 import { SiteFooter } from '@/components/site-footer'
 
 export const metadata: Metadata = {
-  title: 'Affiliate Disclosure | The Maghreb Culinary Codex',
+  title: 'Affiliate disclosure',
   description:
     'How The Maghreb Culinary Codex uses affiliate links to support the archive.',
 }
 
 export default function AffiliateDisclosurePage() {
   return (
-    <main className="relative min-h-screen">
+    <>
       <DetailNav />
-      <section className="mx-auto max-w-3xl px-5 pb-24 pt-36 md:px-8">
-        <p className="text-xs uppercase tracking-[0.4em] text-primary">The Codex</p>
-        <h1 className="mt-3 font-serif text-4xl tracking-tight text-balance sm:text-5xl">
-          Affiliate Disclosure
-        </h1>
+      <main id="main-content" className="relative min-h-screen">
+        <section className="mx-auto max-w-3xl px-5 pb-24 pt-36 md:px-8">
+          <p className="text-xs uppercase tracking-[0.4em] text-primary">The Codex</p>
+          <h1 className="mt-3 font-serif text-4xl tracking-tight text-balance sm:text-5xl">
+            Affiliate disclosure
+          </h1>
 
-        <div className="mt-8 space-y-6 text-sm leading-relaxed text-foreground/90">
-          <p>
-            The Maghreb Culinary Codex is an independent editorial archive. Some pages —
-            including individual recipe entries — contain “Shop this recipe” links to
-            specialty ingredients, cookware, and books referenced in our source guide.
-          </p>
-          <p>
-            Some of these are <strong>affiliate links</strong>, primarily through the Amazon
-            Associates program. If you click one and make a qualifying purchase, we may earn
-            a small commission — at no additional cost to you. Prices are set by the
-            retailer and are unaffected by whether you use our link.
-          </p>
-          <p>
-            We only link to products and books that are directly relevant to the recipe or
-            citation on the page. Affiliate relationships never influence which recipes we
-            publish, how they’re written, or what the Accuracy and Safety notes say.
-          </p>
-          <p>
-            Links to the regional recipe archives, food-safety authorities, and other
-            reference sites cited throughout the Codex (marked in each entry’s
-            “Cross-checked against” list) are <strong>not</strong> affiliate links — they’re
-            provided purely for attribution and further reading.
-          </p>
-          <p className="text-muted-foreground">
-            Questions about this policy can be sent to the contact address listed in our
-            About page.
-          </p>
-        </div>
-      </section>
+          <div className="mt-8 space-y-6 text-sm leading-relaxed text-foreground/90">
+            <p>
+              The Maghreb Culinary Codex is an independent editorial archive. When a recipe
+              page displays a “Shop this recipe” module, its product links may be affiliate
+              links to relevant ingredients or cookware.
+            </p>
+            <p>
+              If you follow an affiliate link and make a purchase, Oak and Main Developers LLC
+              may earn a commission at no additional cost to you. A disclosure appears directly
+              above those links, and product links are marked for search engines as sponsored.
+            </p>
+            <p>
+              The archive remains available without using a product link. Affiliate
+              relationships do not determine which recipe records are published, their source
+              notes, or the accuracy and safety information shown in an entry.
+            </p>
+            <p>
+              Bibliographic and food-safety references in “Sources consulted” and
+              “Cross-checked against” are provided for attribution and further reading. They do
+              not use the affiliate tracking parameter used by optional shop modules.
+            </p>
+            <p>
+              Retailers process information under their own privacy policies after you leave this
+              site. Please read our <a href="/privacy" className="underline underline-offset-2 hover:text-primary">Privacy notice</a> for the
+              information this site and its service providers process.
+            </p>
+          </div>
+        </section>
+      </main>
       <SiteFooter />
-    </main>
+    </>
   )
 }

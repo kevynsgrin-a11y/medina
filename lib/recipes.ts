@@ -43,17 +43,17 @@ type Seed = [
 ]
 
 const IMG = {
-  tagine: '/images/hero-tagine.png',
-  brik: '/images/tunisian-brik.png',
-  koshari: '/images/egyptian-koshari.png',
-  harissa: '/images/harissa.png',
-  couscous: '/images/couscous.png',
-  street: '/images/street-food.png',
-  sephardic: '/images/sephardic.png',
-  spices: '/images/spices.png',
-  pastilla: '/images/pastilla.png',
-  condiments: '/images/condiments.png',
-  tea: '/images/mint-tea.png',
+  tagine: '/images/hero-tagine.webp',
+  brik: '/images/tunisian-brik.webp',
+  koshari: '/images/egyptian-koshari.webp',
+  harissa: '/images/harissa.webp',
+  couscous: '/images/couscous.webp',
+  street: '/images/street-food.webp',
+  sephardic: '/images/sephardic.webp',
+  spices: '/images/spices.webp',
+  pastilla: '/images/pastilla.webp',
+  condiments: '/images/condiments.webp',
+  tea: '/images/mint-tea.webp',
 } as const
 
 const STREET: Seed[] = [
@@ -193,7 +193,7 @@ function buildCategory(seeds: Seed[], category: Category, start: number): Recipe
     id: start + i,
     name: seed[0],
     region: seed[1],
-    image: `/images/recipes/${start + i}.png`,
+    image: `/images/recipes/${start + i}.webp`,
     category,
     minutes: seed[3],
     heat: seed[4],

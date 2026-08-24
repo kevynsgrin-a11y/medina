@@ -18,6 +18,14 @@ export function ShopModule({ recipe, detail }: { recipe: Recipe; detail: RecipeD
         <ShoppingBag className="h-3.5 w-3.5" />
         Shop this recipe
       </p>
+      <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
+        Disclosure: We may earn a commission if you buy through links on this page, at no
+        additional cost to you.{' '}
+        <Link href="/affiliate-disclosure" className="underline underline-offset-2 hover:text-primary">
+          Learn more
+        </Link>
+        .
+      </p>
       <ul className="mt-4 space-y-3">
         {links.map((link) => (
           <li key={link.id}>
@@ -36,14 +44,6 @@ export function ShopModule({ recipe, detail }: { recipe: Recipe; detail: RecipeD
           </li>
         ))}
       </ul>
-      <p className="mt-4 text-[0.7rem] leading-relaxed text-muted-foreground">
-        Affiliate links — as an Amazon Associate this site earns from qualifying purchases, at no
-        extra cost to you.{' '}
-        <Link href="/affiliate-disclosure" className="underline underline-offset-2 hover:text-primary">
-          Full disclosure
-        </Link>
-        .
-      </p>
     </div>
   )
 }

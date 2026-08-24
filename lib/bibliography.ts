@@ -1,7 +1,7 @@
 // Source guide for the compendium's "Cross-check references." Every recipe
-// cites at least two of these. Book entries (B#) link out via Amazon so a
-// reader can buy the source; site entries (W#) and food-safety entries (FS#)
-// link directly to the reference.
+// cites at least two of these. Book entries use untagged retailer search
+// links, keeping citations separate from the optional shop module. Site
+// entries (W#) and food-safety entries (FS#) link directly to the reference.
 import { amazonSearchUrl } from './affiliates'
 
 export type SourceKind = 'book' | 'site' | 'food-safety'
@@ -18,61 +18,61 @@ export const SOURCES: Record<string, Source> = {
     code: 'B1',
     kind: 'book',
     label: "Paula Wolfert, The Food of Morocco (Ecco, 2011)",
-    url: amazonSearchUrl('Paula Wolfert The Food of Morocco book'),
+    url: amazonSearchUrl('Paula Wolfert The Food of Morocco book', false),
   },
   B2: {
     code: 'B2',
     kind: 'book',
     label: 'Claudia Roden, Arabesque: A Taste of Morocco, Turkey, and Lebanon (Knopf, 2006)',
-    url: amazonSearchUrl('Claudia Roden Arabesque book'),
+    url: amazonSearchUrl('Claudia Roden Arabesque book', false),
   },
   B3: {
     code: 'B3',
     kind: 'book',
     label: 'Claudia Roden, The New Book of Middle Eastern Food (Knopf, 2000)',
-    url: amazonSearchUrl('Claudia Roden New Book of Middle Eastern Food'),
+    url: amazonSearchUrl('Claudia Roden New Book of Middle Eastern Food', false),
   },
   B4: {
     code: 'B4',
     kind: 'book',
     label: 'Claudia Roden, The Book of Jewish Food (Knopf, 1996)',
-    url: amazonSearchUrl('Claudia Roden The Book of Jewish Food'),
+    url: amazonSearchUrl('Claudia Roden The Book of Jewish Food', false),
   },
   B5: {
     code: 'B5',
     kind: 'book',
     label: 'Gil Marks, Encyclopedia of Jewish Food (Wiley, 2010)',
-    url: amazonSearchUrl('Gil Marks Encyclopedia of Jewish Food'),
+    url: amazonSearchUrl('Gil Marks Encyclopedia of Jewish Food', false),
   },
   B6: {
     code: 'B6',
     kind: 'book',
     label: 'Anissa Helou, Feast: Food of the Islamic World (Ecco, 2018)',
-    url: amazonSearchUrl('Anissa Helou Feast Food of the Islamic World'),
+    url: amazonSearchUrl('Anissa Helou Feast Food of the Islamic World', false),
   },
   B7: {
     code: 'B7',
     kind: 'book',
     label: 'Suzanne Zeidy, Cairo Kitchen (Hardie Grant, 2013)',
-    url: amazonSearchUrl('Suzanne Zeidy Cairo Kitchen book'),
+    url: amazonSearchUrl('Suzanne Zeidy Cairo Kitchen book', false),
   },
   B8: {
     code: 'B8',
     kind: 'book',
     label: 'Jeff Koehler, Morocco: A Culinary Journey with Recipes (Chronicle Books, 2012)',
-    url: amazonSearchUrl('Jeff Koehler Morocco Culinary Journey'),
+    url: amazonSearchUrl('Jeff Koehler Morocco Culinary Journey', false),
   },
   B9: {
     code: 'B9',
     kind: 'book',
     label: 'Nargisse Benkabbou, Casablanca: My Moroccan Food (Mitchell Beazley, 2018)',
-    url: amazonSearchUrl('Nargisse Benkabbou Casablanca My Moroccan Food'),
+    url: amazonSearchUrl('Nargisse Benkabbou Casablanca My Moroccan Food', false),
   },
   B10: {
     code: 'B10',
     kind: 'book',
     label: 'Janna Gur, Jewish Soul Food: From Minsk to Marrakesh (Schocken, 2014)',
-    url: amazonSearchUrl('Janna Gur Jewish Soul Food'),
+    url: amazonSearchUrl('Janna Gur Jewish Soul Food', false),
   },
   W1: {
     code: 'W1',

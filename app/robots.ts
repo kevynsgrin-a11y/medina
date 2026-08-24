@@ -3,7 +3,11 @@ import { SITE_URL } from '@/lib/schema'
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: '*', allow: '/' },
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: ['/api/', '/healthz'],
+    },
     sitemap: `${SITE_URL}/sitemap.xml`,
   }
 }
