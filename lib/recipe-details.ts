@@ -4,9 +4,10 @@
 // homepage grid/cards) so the detail layer can grow without touching the
 // homepage's data contract.
 import raw from './data/recipe-details.json'
+import { nutritionForIngredientText, type IngredientNutrition } from './nutrition'
 
 export type IngredientEntry =
-  | { type: 'item'; text: string }
+  | { type: 'item'; text: string; nutrition?: IngredientNutrition }
   | { type: 'group'; text: string }
 
 export type NoteLabel = 'Accuracy note' | 'Safety note'
@@ -30,7 +31,20 @@ export type RecipeDetail = {
   finalizedSources?: string[]
 }
 
-export const RECIPE_DETAILS: RecipeDetail[] = raw as RecipeDetail[]
+// Build-time nutrition join: each ingredient item is annotated with its
+// verified per-100g values from the committed TrueAPI ingredient dictionary
+// (USDA FoodData Central). Items without a verified match keep nutrition
+// undefined and render nothing — never invented numbers. No runtime API
+// calls; refresh with:
+//   DICTIONARY_PATH=<updated bundle> node scripts/build-nutrition.mjs
+export const RECIPE_DETAILS: RecipeDetail[] = (raw as RecipeDetail[]).map((detail) => ({
+  ...detail,
+  ingredients: detail.ingredients.map((entry) =>
+    entry.type === 'item'
+      ? { ...entry, nutrition: nutritionForIngredientText(entry.text) ?? undefined }
+      : entry,
+  ),
+}))
 
 const BY_ID = new Map<number, RecipeDetail>(RECIPE_DETAILS.map((r) => [r.id, r]))
 

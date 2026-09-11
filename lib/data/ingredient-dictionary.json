@@ -1,0 +1,5864 @@
+{
+  "bundle": "ingredient-dictionary",
+  "source": "USDA FoodData Central (foods/search)",
+  "fetchedAt": "2026-09-11T09:55:34.372Z",
+  "note": "Subset of the TrueAPI portfolio ingredient dictionary for medina (entries tagged in sites[]). Refresh: DICTIONARY_PATH=<updated bundle> node scripts/build-nutrition.mjs",
+  "entries": {
+    "active dry yeast": {
+      "display": "active dry yeast",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2575886,
+      "name": "ACTIVE DRY YEAST",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "aged smen butter": {
+      "display": "aged smen butter",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "all-purpose flour": {
+      "display": "all-purpose flour",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2098756,
+      "name": "ALL-PURPOSE FLOUR",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 10,
+        "fat_g": 0,
+        "carbs_g": 76.7,
+        "kcal": 333,
+        "sugar_g": 3.33,
+        "fiber_g": 3.3,
+        "calcium_mg": 333,
+        "iron_mg": 6,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "allspice": {
+      "display": "allspice",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2385627,
+      "name": "ALLSPICE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sodium_mg": 2000
+      },
+      "resolved": true
+    },
+    "aniseed": {
+      "display": "aniseed",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "artichoke bottoms": {
+      "display": "artichoke bottoms",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "artichoke hearts": {
+      "display": "artichoke hearts",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2412008,
+      "name": "ARTICHOKE HEARTS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.75,
+        "fat_g": 0,
+        "carbs_g": 10,
+        "kcal": 50,
+        "sugar_g": 1.25,
+        "fiber_g": 5,
+        "calcium_mg": 50,
+        "iron_mg": 1.25,
+        "potassium_mg": 375,
+        "sodium_mg": 94
+      },
+      "resolved": true
+    },
+    "baby spinach": {
+      "display": "baby spinach",
+      "sites": [
+        "medina",
+        "virality-food-app"
+      ],
+      "fdcId": 2470530,
+      "name": "BABY SPINACH",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 2.82,
+        "fat_g": 0.35,
+        "carbs_g": 3.52,
+        "kcal": 25,
+        "sugar_g": 0.7,
+        "fiber_g": 2.1,
+        "calcium_mg": 99,
+        "iron_mg": 2.68,
+        "potassium_mg": 556,
+        "sodium_mg": 77
+      },
+      "resolved": true
+    },
+    "baguette": {
+      "display": "baguette",
+      "sites": [
+        "medina",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 2629093,
+      "name": "BAGUETTE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 7.14,
+        "fat_g": 0,
+        "carbs_g": 44.6,
+        "kcal": 214,
+        "sugar_g": 0,
+        "fiber_g": 1.8,
+        "calcium_mg": 36,
+        "iron_mg": 2.57,
+        "sodium_mg": 536
+      },
+      "resolved": true
+    },
+    "baking powder": {
+      "display": "baking powder",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "skillet",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2427024,
+      "name": "BAKING POWDER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 10800
+      },
+      "resolved": true
+    },
+    "baking soda": {
+      "display": "baking soda",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2131001,
+      "name": "BAKING SODA",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sodium_mg": 26700
+      },
+      "resolved": true
+    },
+    "basmati rice": {
+      "display": "basmati rice",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "batch chermoula paste": {
+      "display": "batch chermoula paste",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bay leaves": {
+      "display": "bay leaves",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2642856,
+      "name": "BAY LEAVES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "beef": {
+      "display": "beef",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet"
+      ],
+      "fdcId": 2056092,
+      "name": "BEEF",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 20,
+        "fat_g": 5.88,
+        "carbs_g": 0,
+        "kcal": 129,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 4.24,
+        "sodium_mg": 212
+      },
+      "resolved": true
+    },
+    "beef brisket": {
+      "display": "beef brisket",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "silk-spice-archive",
+        "skillet"
+      ],
+      "fdcId": 2060000,
+      "name": "BEEF BRISKET",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 22.6,
+        "fat_g": 4.17,
+        "carbs_g": 1.19,
+        "kcal": 143,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 24,
+        "iron_mg": 2.14,
+        "sodium_mg": 774
+      },
+      "resolved": true
+    },
+    "beef brisket or chuck": {
+      "display": "beef brisket or chuck",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "beef chuck": {
+      "display": "beef chuck",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "medina",
+        "norcook",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "beef chuck or lamb shoulder": {
+      "display": "beef chuck or lamb shoulder",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "beef liver": {
+      "display": "beef liver",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "beef shanks": {
+      "display": "beef shanks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "beef/lamb stew meat": {
+      "display": "beef/lamb stew meat",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bell pepper": {
+      "display": "bell pepper",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bell peppers": {
+      "display": "bell peppers",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "virality-food-app"
+      ],
+      "fdcId": 2079108,
+      "name": "BELL PEPPERS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 1.18,
+        "fat_g": 0,
+        "carbs_g": 4.71,
+        "kcal": 18,
+        "sugar_g": 2.35,
+        "fiber_g": 1.2,
+        "calcium_mg": 0,
+        "iron_mg": 0.42,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "berkoukes or moghrabieh-size semolina pearls": {
+      "display": "berkoukes or moghrabieh-size semolina pearls",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "black olives": {
+      "display": "black olives",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "black pepper": {
+      "display": "black pepper",
+      "sites": [
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2157235,
+      "name": "BLACK PEPPER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 167,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 41.7,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "black peppercorns": {
+      "display": "black peppercorns",
+      "sites": [
+        "Bangersandmash",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "taquiza-recipe-platform"
+      ],
+      "fdcId": 2546173,
+      "name": "BLACK PEPPERCORNS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "black tea": {
+      "display": "black tea",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "blanched almonds": {
+      "display": "blanched almonds",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "fdcId": 2399834,
+      "name": "BLANCHED ALMOND MEAL FLOUR, BLANCHED ALMOND",
+      "dataType": "Branded",
+      "confidence": 0.72,
+      "per100g": {
+        "protein_g": 21.4,
+        "fat_g": 53.6,
+        "carbs_g": 17.9,
+        "kcal": 643,
+        "sugar_g": 3.57,
+        "fiber_g": 10.7,
+        "calcium_mg": 236,
+        "iron_mg": 3.29,
+        "potassium_mg": 661,
+        "sodium_mg": 18
+      },
+      "resolved": true
+    },
+    "bodies cut into rings and tentacles separated": {
+      "display": "bodies cut into rings and tentacles separated",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "boiling water": {
+      "display": "boiling water",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "norcook",
+        "silk-spice-archive",
+        "skillet"
+      ],
+      "fdcId": 171662,
+      "name": "Cereals, oats, instant, fortified, plain, prepared with water (boiling water added or microwaved)",
+      "dataType": "SR Legacy",
+      "confidence": 0.73,
+      "per100g": {
+        "sugar_g": 0.46,
+        "calcium_mg": 80,
+        "potassium_mg": 61,
+        "fat_g": 1.36,
+        "carbs_g": 11.7,
+        "kcal": 68,
+        "fiber_g": 1.7,
+        "iron_mg": 5.96,
+        "sodium_mg": 49,
+        "protein_g": 2.37
+      },
+      "resolved": true
+    },
+    "boiling water to cover": {
+      "display": "Boiling water to cover",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bone-in chicken pieces": {
+      "display": "bone-in chicken pieces",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bone-in chicken thighs and breasts": {
+      "display": "bone-in chicken thighs and breasts",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bone-in goat shoulder or stew pieces": {
+      "display": "bone-in goat shoulder or stew pieces",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bone-in lamb shanks": {
+      "display": "bone-in lamb shanks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "bone-in lamb shanks or shoulder": {
+      "display": "bone-in lamb shanks or shoulder",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "breadcrumbs": {
+      "display": "breadcrumbs",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "norcook",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2290286,
+      "name": "BREADCRUMBS, ORIGINAL",
+      "dataType": "Branded",
+      "confidence": 0.9,
+      "per100g": {
+        "fat_g": 0,
+        "kcal": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0
+      },
+      "resolved": true
+    },
+    "brown lentils": {
+      "display": "brown lentils",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2544901,
+      "name": "BROWN LENTILS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 24,
+        "fat_g": 1,
+        "carbs_g": 64,
+        "kcal": 360,
+        "sugar_g": 0,
+        "fiber_g": 10,
+        "calcium_mg": 35,
+        "iron_mg": 6.5,
+        "potassium_mg": 676,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "brown or green lentils": {
+      "display": "brown or green lentils",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butcher’s twine": {
+      "display": "Butcher’s twine",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butter": {
+      "display": "butter",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "recipe-reel",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2542726,
+      "name": "BUTTER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 78.6,
+        "carbs_g": 0,
+        "kcal": 714,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "butter and olive oil combined": {
+      "display": "butter and olive oil combined",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butter or ghee": {
+      "display": "butter or ghee",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butter or olive oil": {
+      "display": "butter or olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butter or smen": {
+      "display": "butter or smen",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "butterflied sardines": {
+      "display": "butterflied sardines",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cabbage": {
+      "display": "cabbage",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "norcook",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 170392,
+      "name": "Cabbage, kimchi",
+      "dataType": "SR Legacy",
+      "confidence": 0.9,
+      "per100g": {
+        "fat_g": 0.5,
+        "carbs_g": 2.4,
+        "kcal": 15,
+        "sugar_g": 1.06,
+        "calcium_mg": 33,
+        "potassium_mg": 151,
+        "protein_g": 1.1,
+        "fiber_g": 1.6,
+        "iron_mg": 2.5,
+        "sodium_mg": 498
+      },
+      "resolved": true
+    },
+    "canned diced tomatoes": {
+      "display": "canned diced tomatoes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "capers": {
+      "display": "capers",
+      "sites": [
+        "amore-a-tavola-ui",
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "caraway": {
+      "display": "caraway",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "fdcId": 2670757,
+      "name": "CARAWAY",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "caraway seeds": {
+      "display": "caraway seeds",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "fdcId": 579075,
+      "name": "CARAWAY SEEDS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0,
+        "protein_g": 0,
+        "kcal": 0
+      },
+      "resolved": true
+    },
+    "cardamom pods": {
+      "display": "cardamom pods",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cardamom seeds": {
+      "display": "cardamom seeds",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "carrots": {
+      "display": "carrots",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cayenne": {
+      "display": "cayenne",
+      "sites": [
+        "gochujang",
+        "medina",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cayenne pepper": {
+      "display": "cayenne pepper",
+      "sites": [
+        "Bangersandmash",
+        "medina",
+        "skillet",
+        "Soup-Imitation"
+      ],
+      "fdcId": 1888487,
+      "name": "CAYENNE PEPPER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 100,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "cayenne pepper or sweet paprika": {
+      "display": "cayenne pepper or sweet paprika",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "celery": {
+      "display": "celery",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "the-neon-griddle"
+      ],
+      "fdcId": 447185,
+      "name": "CELERY",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "calcium_mg": 36,
+        "iron_mg": 0.33,
+        "protein_g": 0,
+        "carbs_g": 3.64,
+        "kcal": 14,
+        "sugar_g": 1.82,
+        "fiber_g": 1.8,
+        "sodium_mg": 105
+      },
+      "resolved": true
+    },
+    "celery stalks": {
+      "display": "celery stalks",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2145570,
+      "name": "CELERY HEARTS STALKS",
+      "dataType": "Branded",
+      "confidence": 0.73,
+      "per100g": {
+        "protein_g": 0.91,
+        "fat_g": 0,
+        "carbs_g": 4.55,
+        "kcal": 18,
+        "sugar_g": 0,
+        "fiber_g": 1.8,
+        "calcium_mg": 36,
+        "iron_mg": 0.33,
+        "sodium_mg": 91
+      },
+      "resolved": true
+    },
+    "chermoula": {
+      "display": "chermoula",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chermoula sauce": {
+      "display": "Chermoula sauce",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chicken pieces": {
+      "display": "chicken pieces",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chicken stock": {
+      "display": "chicken stock",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2126401,
+      "name": "CHICKEN STOCK",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 1.63,
+        "fat_g": 0,
+        "carbs_g": 0.41,
+        "kcal": 8,
+        "sugar_g": 0.41,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 122,
+        "sodium_mg": 212
+      },
+      "resolved": true
+    },
+    "chicken thighs": {
+      "display": "chicken thighs",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chickpeas": {
+      "display": "chickpeas",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 2068232,
+      "name": "CHICKPEAS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 8,
+        "fat_g": 1.6,
+        "carbs_g": 20.8,
+        "kcal": 128,
+        "sugar_g": 0.8,
+        "fiber_g": 4,
+        "calcium_mg": 64,
+        "iron_mg": 1.15,
+        "potassium_mg": 248,
+        "sodium_mg": 232
+      },
+      "resolved": true
+    },
+    "chili powder": {
+      "display": "chili powder",
+      "sites": [
+        "medina",
+        "skillet",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chinese gunpowder green tea leaves": {
+      "display": "Chinese Gunpowder green tea leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chopped cilantro": {
+      "display": "chopped cilantro",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2603742,
+      "name": "CHOPPED CILANTRO",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 11.1,
+        "carbs_g": 22.2,
+        "kcal": 222,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 1000
+      },
+      "resolved": true
+    },
+    "chopped cilantro and parsley": {
+      "display": "chopped cilantro and parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chopped cilantro or parsley": {
+      "display": "Chopped cilantro or parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chopped mint and cilantro": {
+      "display": "chopped mint and cilantro",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chopped parsley": {
+      "display": "chopped parsley",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2603743,
+      "name": "CHOPPED PARSLEY",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 11.1,
+        "carbs_g": 0,
+        "kcal": 111,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 667
+      },
+      "resolved": true
+    },
+    "chopped parsley and cilantro": {
+      "display": "chopped parsley and cilantro",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chopped parsley/cilantro": {
+      "display": "chopped parsley/cilantro",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "chuck": {
+      "display": "chuck",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2705825,
+      "name": "Beef, steak, chuck",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.75,
+      "per100g": {
+        "protein_g": 25.97,
+        "fat_g": 13.43,
+        "carbs_g": 0.21,
+        "kcal": 225,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 13,
+        "iron_mg": 3.23,
+        "potassium_mg": 308,
+        "sodium_mg": 380
+      },
+      "resolved": true
+    },
+    "chunked": {
+      "display": "chunked",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cilantro": {
+      "display": "cilantro",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cinnamon": {
+      "display": "cinnamon",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2670917,
+      "name": "CINNAMON",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "cinnamon powder": {
+      "display": "cinnamon powder",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cinnamon stick": {
+      "display": "cinnamon stick",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cinnamon sticks": {
+      "display": "cinnamon sticks",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "fdcId": 2127959,
+      "name": "CINNAMON STICKS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "cleaned common mallow leaves": {
+      "display": "cleaned common mallow leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cleaned sardine fillets": {
+      "display": "cleaned sardine fillets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cleaned sheep casings": {
+      "display": "cleaned sheep casings",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cleaned squid": {
+      "display": "cleaned squid",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 766282,
+      "name": "CLEANED SQUID",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 15.2,
+        "fat_g": 1.34,
+        "carbs_g": 2.68,
+        "kcal": 89,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 32,
+        "iron_mg": 0.68,
+        "potassium_mg": 246,
+        "sodium_mg": 45
+      },
+      "resolved": true
+    },
+    "coarse dried red chili flakes": {
+      "display": "coarse dried red chili flakes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "coarse salt": {
+      "display": "coarse salt",
+      "sites": [
+        "colombia-by-fire",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "coarse sea salt": {
+      "display": "coarse sea salt",
+      "sites": [
+        "gochujang",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "fdcId": 2667615,
+      "name": "COARSE SEA SALT",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sodium_mg": 38700
+      },
+      "resolved": true
+    },
+    "cod/halibut fillets": {
+      "display": "cod/halibut fillets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "coffee grounds": {
+      "display": "coffee grounds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cold water": {
+      "display": "cold water",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "commercially cured kaddid or gueddid": {
+      "display": "commercially cured kaddid or gueddid",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "confectioners’ sugar and cinnamon": {
+      "display": "Confectioners’ sugar and cinnamon",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cooked chickpeas": {
+      "display": "cooked chickpeas",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cooked rice or 1/4 cup breadcrumbs": {
+      "display": "cooked rice or 1/4 cup breadcrumbs",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "coriander": {
+      "display": "coriander",
+      "sites": [
+        "medina",
+        "virality-food-app"
+      ],
+      "fdcId": 2525332,
+      "name": "APRICOT & CORIANDER SAUCE, APRICOT & CORIANDER",
+      "dataType": "Branded",
+      "confidence": 1.21,
+      "per100g": {
+        "protein_g": 1.56,
+        "fat_g": 4.69,
+        "carbs_g": 14.1,
+        "kcal": 94,
+        "sugar_g": 9.38,
+        "fiber_g": 1.6,
+        "calcium_mg": 31,
+        "iron_mg": 0.56,
+        "potassium_mg": 109,
+        "sodium_mg": 172
+      },
+      "resolved": true
+    },
+    "coriander powder": {
+      "display": "coriander powder",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2670741,
+      "name": "CORIANDER POWDER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "coriander seeds": {
+      "display": "coriander seeds",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "silk-spice-archive"
+      ],
+      "fdcId": 1957400,
+      "name": "CORIANDER SEEDS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 20,
+        "fat_g": 20,
+        "carbs_g": 20,
+        "kcal": 340,
+        "sugar_g": 0,
+        "fiber_g": 40,
+        "calcium_mg": 600,
+        "iron_mg": 7.2,
+        "sodium_mg": 40
+      },
+      "resolved": true
+    },
+    "cornstarch": {
+      "display": "cornstarch",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "skillet",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "virality-food-app"
+      ],
+      "fdcId": 169698,
+      "name": "Cornstarch",
+      "dataType": "SR Legacy",
+      "confidence": 1.05,
+      "per100g": {
+        "sugar_g": 0,
+        "fat_g": 0.05,
+        "carbs_g": 91.3,
+        "kcal": 381,
+        "calcium_mg": 2,
+        "potassium_mg": 3,
+        "protein_g": 0.26,
+        "fiber_g": 0.9,
+        "iron_mg": 0.47,
+        "sodium_mg": 9
+      },
+      "resolved": true
+    },
+    "couscous": {
+      "display": "couscous",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2388834,
+      "name": "COUSCOUS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 13.3,
+        "fat_g": 0,
+        "carbs_g": 77.8,
+        "kcal": 378,
+        "sugar_g": 2.22,
+        "fiber_g": 4.4,
+        "calcium_mg": 33,
+        "iron_mg": 2.22,
+        "potassium_mg": 189,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "crumbled feta cheese": {
+      "display": "crumbled feta cheese",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2602114,
+      "name": "CRUMBLED FETA CHEESE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 21.4,
+        "fat_g": 21.4,
+        "carbs_g": 3.57,
+        "kcal": 286,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 321,
+        "iron_mg": 0,
+        "potassium_mg": 125,
+        "sodium_mg": 643
+      },
+      "resolved": true
+    },
+    "crumbled feta or grated cheese": {
+      "display": "crumbled feta or grated cheese",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "crushed red pepper flakes": {
+      "display": "crushed red pepper flakes",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 737288,
+      "name": "CRUSHED RED PEPPER",
+      "dataType": "Branded",
+      "confidence": 0.86,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 55.6,
+        "kcal": 278,
+        "sugar_g": 0,
+        "fiber_g": 55.6,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "crushed tomatoes": {
+      "display": "crushed tomatoes",
+      "sites": [
+        "gochujang",
+        "medina",
+        "silk-spice-archive",
+        "virality-food-app"
+      ],
+      "fdcId": 1935808,
+      "name": "CRUSHED TOMATOES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 1.61,
+        "fat_g": 0,
+        "carbs_g": 4.84,
+        "kcal": 24,
+        "sugar_g": 3.23,
+        "fiber_g": 1.6,
+        "calcium_mg": 0,
+        "iron_mg": 0.58,
+        "sodium_mg": 16
+      },
+      "resolved": true
+    },
+    "crusty fresh baguettes": {
+      "display": "crusty fresh baguettes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "culinary toasted argan oil": {
+      "display": "culinary toasted argan oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cultivated cardoon stalks": {
+      "display": "cultivated cardoon stalks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cumin": {
+      "display": "cumin",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cumin and harissa": {
+      "display": "cumin and harissa",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "cumin seeds": {
+      "display": "cumin seeds",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2427784,
+      "name": "CUMIN SEEDS GRINDER REFILL, CUMIN SEEDS",
+      "dataType": "Branded",
+      "confidence": 0.89,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 133,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "dried apricots": {
+      "display": "dried apricots",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried black-eyed peas": {
+      "display": "dried black-eyed peas",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried cannellini or navy beans": {
+      "display": "dried cannellini or navy beans",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried chickpeas": {
+      "display": "dried chickpeas",
+      "sites": [
+        "colombia-by-fire",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried figs": {
+      "display": "dried figs",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina"
+      ],
+      "fdcId": 2426703,
+      "name": "DRIED FIGS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 14.3,
+        "fat_g": 0,
+        "carbs_g": 28.6,
+        "kcal": 107,
+        "sugar_g": 21.4,
+        "fiber_g": 3.6,
+        "calcium_mg": 93,
+        "iron_mg": 0.64,
+        "potassium_mg": 336,
+        "sodium_mg": 18
+      },
+      "resolved": true
+    },
+    "dried garlic powder": {
+      "display": "dried garlic powder",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried mint": {
+      "display": "dried mint",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried orange peel": {
+      "display": "dried orange peel",
+      "sites": [
+        "hongkitchen",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried organic pink rose petals": {
+      "display": "dried organic pink rose petals",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried pink organic rose petals": {
+      "display": "dried pink organic rose petals",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried red chilies": {
+      "display": "dried red chilies",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried skinless split fava beans": {
+      "display": "dried skinless split fava beans",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried thyme": {
+      "display": "dried thyme",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried white beans": {
+      "display": "dried white beans",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried wild hyssop": {
+      "display": "dried wild hyssop",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried wild oregano": {
+      "display": "dried wild oregano",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dried wormwood": {
+      "display": "dried wormwood",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dry semolina couscous": {
+      "display": "dry semolina couscous",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "dry yeast": {
+      "display": "dry yeast",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "egg": {
+      "display": "egg",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2575290,
+      "name": "EGG",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 6.41,
+        "fat_g": 28.8,
+        "carbs_g": 57.7,
+        "kcal": 513,
+        "sugar_g": 54.5,
+        "fiber_g": 3.2,
+        "calcium_mg": 128,
+        "iron_mg": 0,
+        "sodium_mg": 176
+      },
+      "resolved": true
+    },
+    "egg wash": {
+      "display": "egg wash",
+      "sites": [
+        "medina",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "egg yolk": {
+      "display": "egg yolk",
+      "sites": [
+        "Bangersandmash",
+        "hongkitchen",
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "fdcId": 748236,
+      "name": "Eggs, Grade A, Large, egg yolk",
+      "dataType": "Foundation",
+      "confidence": 0.73,
+      "per100g": {
+        "fat_g": 28.8,
+        "protein_g": 16.2,
+        "carbs_g": 1.02,
+        "kcal": 334
+      },
+      "resolved": true
+    },
+    "eggplant": {
+      "display": "eggplant",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2710049,
+      "name": "Eggplant dip",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.9,
+      "per100g": {
+        "protein_g": 4.8,
+        "fat_g": 14.98,
+        "carbs_g": 8.15,
+        "kcal": 183,
+        "sugar_g": 2.81,
+        "fiber_g": 3.9,
+        "calcium_mg": 35,
+        "iron_mg": 1.69,
+        "potassium_mg": 264,
+        "sodium_mg": 209
+      },
+      "resolved": true
+    },
+    "eggs": {
+      "display": "eggs",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2498468,
+      "name": "EGGS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.57,
+        "fat_g": 35.7,
+        "carbs_g": 57.1,
+        "kcal": 571,
+        "sugar_g": 53.6,
+        "fiber_g": 0,
+        "calcium_mg": 71,
+        "iron_mg": 1.29,
+        "sodium_mg": 107
+      },
+      "resolved": true
+    },
+    "eggs in shell": {
+      "display": "eggs in shell",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "eggs in shells": {
+      "display": "eggs in shells",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "egyptian rice": {
+      "display": "Egyptian rice",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "elbow macaroni or ditalini pasta": {
+      "display": "elbow macaroni or ditalini pasta",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "extra virgin olive oil": {
+      "display": "extra virgin olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "extra virgin olive oil for brushing": {
+      "display": "extra virgin olive oil for brushing",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "extra virgin olive oil for deep frying": {
+      "display": "extra virgin olive oil for deep frying",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fenugreek seeds": {
+      "display": "fenugreek seeds",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "feta cheese": {
+      "display": "feta cheese",
+      "sites": [
+        "medina",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "fdcId": 453820,
+      "name": "FETA CHEESE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fiber_g": 0,
+        "calcium_mg": 214,
+        "iron_mg": 0,
+        "protein_g": 17.9,
+        "fat_g": 21.4,
+        "kcal": 286,
+        "sugar_g": 0,
+        "sodium_mg": 1140,
+        "carbs_g": 3.57
+      },
+      "resolved": true
+    },
+    "feta cheese crumbled": {
+      "display": "feta cheese crumbled",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fine salt": {
+      "display": "fine salt",
+      "sites": [
+        "Bangersandmash",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fine semolina": {
+      "display": "fine semolina",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "skillet"
+      ],
+      "fdcId": 554484,
+      "name": "FINE SEMOLINA",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 11,
+        "fat_g": 1.1,
+        "carbs_g": 73.1,
+        "kcal": 1500
+      },
+      "resolved": true
+    },
+    "firm fish fillets or steaks": {
+      "display": "firm fish fillets or steaks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "firm fish steaks or thick fillets": {
+      "display": "firm fish steaks or thick fillets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "flaked tuna": {
+      "display": "flaked tuna",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "flaky sea salt": {
+      "display": "flaky sea salt",
+      "sites": [
+        "Bangersandmash",
+        "medina",
+        "modern-heritage-kitchen",
+        "Rollcraft-sushi",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "flour": {
+      "display": "flour",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2671058,
+      "name": "FLOUR",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 6.67,
+        "fat_g": 0,
+        "carbs_g": 70,
+        "kcal": 333,
+        "iron_mg": 3.6,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "flour mixed with 2 tbsp water": {
+      "display": "flour mixed with 2 tbsp water",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "flour tortillas": {
+      "display": "flour tortillas",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2418476,
+      "name": "FLOUR TORTILLAS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 5.88,
+        "fat_g": 5.88,
+        "carbs_g": 52.9,
+        "kcal": 294,
+        "sugar_g": 0,
+        "fiber_g": 5.9,
+        "iron_mg": 0,
+        "sodium_mg": 765
+      },
+      "resolved": true
+    },
+    "food-grade edible land snails": {
+      "display": "food-grade edible land snails",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "food-inspected camel shoulder or stew meat": {
+      "display": "food-inspected camel shoulder or stew meat",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh cilantro": {
+      "display": "fresh cilantro",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh cilantro and parsley": {
+      "display": "fresh cilantro and parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh cilantro/parsley": {
+      "display": "fresh cilantro/parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh corn": {
+      "display": "fresh corn",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh dill/parsley/cilantro": {
+      "display": "fresh dill/parsley/cilantro",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh eggs": {
+      "display": "fresh eggs",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh flat-leaf parsley": {
+      "display": "fresh flat-leaf parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh grated tomato": {
+      "display": "fresh grated tomato",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh green peas": {
+      "display": "fresh green peas",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh green serrano chilies": {
+      "display": "fresh green serrano chilies",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh lamb and beef merguez sausage": {
+      "display": "fresh lamb and beef merguez sausage",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh leeks or scallions": {
+      "display": "fresh leeks or scallions",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh lemon": {
+      "display": "fresh lemon",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh lemon juice": {
+      "display": "fresh lemon juice",
+      "sites": [
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "the-neon-griddle"
+      ],
+      "fdcId": 167802,
+      "name": "Lemon juice from concentrate, bottled, REAL LEMON",
+      "dataType": "SR Legacy",
+      "confidence": 0.74,
+      "per100g": {
+        "fat_g": 0.07,
+        "carbs_g": 5.66,
+        "kcal": 17,
+        "sugar_g": 1.59,
+        "calcium_mg": 9,
+        "potassium_mg": 109,
+        "protein_g": 0.47,
+        "fiber_g": 0.7,
+        "iron_mg": 0.06,
+        "sodium_mg": 26
+      },
+      "resolved": true
+    },
+    "fresh loaves of egyptian baladi bread or pita": {
+      "display": "fresh loaves of Egyptian Baladi Bread or pita",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh merguez sausage": {
+      "display": "fresh merguez sausage",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh meyer lemons": {
+      "display": "fresh Meyer lemons",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh organic lemons": {
+      "display": "fresh organic lemons",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh parsley": {
+      "display": "fresh parsley",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh raw caper berries": {
+      "display": "fresh raw caper berries",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh seville bitter orange blossoms": {
+      "display": "fresh Seville bitter orange blossoms",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh spinach": {
+      "display": "fresh spinach",
+      "sites": [
+        "medina",
+        "silk-spice-archive"
+      ],
+      "fdcId": 2078167,
+      "name": "FRESH SPINACH",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 2.35,
+        "fat_g": 0,
+        "carbs_g": 3.53,
+        "kcal": 24,
+        "sugar_g": 0,
+        "fiber_g": 2.4,
+        "calcium_mg": 94,
+        "iron_mg": 3.18,
+        "sodium_mg": 76
+      },
+      "resolved": true
+    },
+    "fresh squid": {
+      "display": "fresh squid",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh terfess": {
+      "display": "fresh Terfess",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh thyme": {
+      "display": "fresh thyme",
+      "sites": [
+        "medina",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh water": {
+      "display": "fresh water",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh whole chestnuts": {
+      "display": "fresh whole chestnuts",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fresh whole sardines": {
+      "display": "fresh whole sardines",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "freshly ground black pepper": {
+      "display": "freshly ground black pepper",
+      "sites": [
+        "Bangersandmash",
+        "kbbqguide",
+        "medina",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "fried or toasted almonds": {
+      "display": "fried or toasted almonds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "frozen chopped molokhia leaves": {
+      "display": "frozen chopped molokhia leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "garlic": {
+      "display": "garlic",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "recipe-reel",
+        "Rollcraft-sushi",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 1662203,
+      "name": "GARLIC",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 33.3,
+        "kcal": 167,
+        "calcium_mg": 667,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "garlic cloves": {
+      "display": "garlic cloves",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "garlic powder": {
+      "display": "garlic powder",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "virality-food-app"
+      ],
+      "fdcId": 2493482,
+      "name": "GARLIC POWDER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 125,
+        "kcal": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ghee": {
+      "display": "ghee",
+      "sites": [
+        "medina",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2171007,
+      "name": "GHEE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 100,
+        "carbs_g": 0,
+        "kcal": 929,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ghee or coconut oil": {
+      "display": "ghee or coconut oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ghee or olive oil": {
+      "display": "ghee or olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ginger": {
+      "display": "ginger",
+      "sites": [
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "norcook",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ginger powder": {
+      "display": "ginger powder",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "granulated sugar": {
+      "display": "granulated sugar",
+      "sites": [
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2126806,
+      "name": "GRANULATED SUGAR",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 100,
+        "kcal": 375,
+        "sugar_g": 100,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "grated parmesan": {
+      "display": "grated Parmesan",
+      "sites": [
+        "gochujang",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "grated tomatoes": {
+      "display": "grated tomatoes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "grated zest of 1 orange": {
+      "display": "grated zest of 1 orange",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "green beans": {
+      "display": "green beans",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "fdcId": 2009385,
+      "name": "GREEN BEANS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0.83,
+        "fat_g": 0,
+        "carbs_g": 3.33,
+        "kcal": 17,
+        "sugar_g": 1.67,
+        "fiber_g": 1.7,
+        "calcium_mg": 17,
+        "iron_mg": 0,
+        "sodium_mg": 317
+      },
+      "resolved": true
+    },
+    "green bell pepper": {
+      "display": "green bell pepper",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "green olives": {
+      "display": "green olives",
+      "sites": [
+        "amore-a-tavola-ui",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "fdcId": 2340426,
+      "name": "GREEN OLIVES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 13.3,
+        "carbs_g": 6.67,
+        "kcal": 167,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 1130
+      },
+      "resolved": true
+    },
+    "green tea leaves": {
+      "display": "green tea leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground allspice": {
+      "display": "ground allspice",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground beef": {
+      "display": "ground beef",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 1942314,
+      "name": "GROUND BEEF",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 17,
+        "fat_g": 26.8,
+        "carbs_g": 0,
+        "kcal": 312,
+        "calcium_mg": 18,
+        "iron_mg": 1.61,
+        "sodium_mg": 67
+      },
+      "resolved": true
+    },
+    "ground beef or a beef/lamb blend": {
+      "display": "ground beef or a beef/lamb blend",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground beef or lamb": {
+      "display": "ground beef or lamb",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground black pepper": {
+      "display": "ground black pepper",
+      "sites": [
+        "Bangersandmash",
+        "kbbqguide",
+        "medina"
+      ],
+      "fdcId": 2072044,
+      "name": "GROUND BLACK PEPPER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ground caraway": {
+      "display": "ground caraway",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground caraway seeds": {
+      "display": "ground caraway seeds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground cardamom": {
+      "display": "ground cardamom",
+      "sites": [
+        "medina",
+        "norcook",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground cinnamon": {
+      "display": "ground cinnamon",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "fdcId": 2386195,
+      "name": "GROUND CINNAMON",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 125,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 1250,
+        "iron_mg": 12.5,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ground cloves": {
+      "display": "ground cloves",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook"
+      ],
+      "fdcId": 579072,
+      "name": "GROUND CLOVES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0,
+        "protein_g": 0,
+        "kcal": 0
+      },
+      "resolved": true
+    },
+    "ground coriander": {
+      "display": "ground coriander",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "fdcId": 2670940,
+      "name": "GROUND CORIANDER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ground cumin": {
+      "display": "ground cumin",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "Soup-Imitation",
+        "taquiza-recipe-platform"
+      ],
+      "fdcId": 733462,
+      "name": "GROUND CUMIN",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 50,
+        "kcal": 500,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 1000,
+        "iron_mg": 54,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "ground fennel": {
+      "display": "ground fennel",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground fenugreek": {
+      "display": "ground fenugreek",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground ginger": {
+      "display": "ground ginger",
+      "sites": [
+        "Bangersandmash",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground mace": {
+      "display": "ground mace",
+      "sites": [
+        "Bangersandmash",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground nutmeg": {
+      "display": "ground nutmeg",
+      "sites": [
+        "medina",
+        "norcook"
+      ],
+      "fdcId": 384464,
+      "name": "GROUND NUTMEG",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0,
+        "protein_g": 0,
+        "kcal": 0
+      },
+      "resolved": true
+    },
+    "ground sumac": {
+      "display": "ground sumac",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ground turmeric": {
+      "display": "ground turmeric",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "fdcId": 2603028,
+      "name": "GROUND TURMERIC",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "grouper": {
+      "display": "grouper",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "halibut": {
+      "display": "halibut",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook"
+      ],
+      "fdcId": 2100197,
+      "name": "HALIBUT",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 20.6,
+        "fat_g": 1.76,
+        "carbs_g": 0,
+        "kcal": 106,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 24,
+        "iron_mg": 1.06,
+        "sodium_mg": 53
+      },
+      "resolved": true
+    },
+    "hard-boiled eggs": {
+      "display": "hard-boiled eggs",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2677959,
+      "name": "HARD-BOILED EGGS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 12.5,
+        "fat_g": 10.2,
+        "carbs_g": 1.14,
+        "kcal": 159,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 23,
+        "iron_mg": 1.23,
+        "potassium_mg": 80,
+        "sodium_mg": 125
+      },
+      "resolved": true
+    },
+    "hard-boiled eggs for garnish": {
+      "display": "hard-boiled eggs for garnish",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "hard-cooked eggs": {
+      "display": "hard-cooked eggs",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "harissa": {
+      "display": "harissa",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "harissa paste": {
+      "display": "harissa paste",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2546030,
+      "name": "HARISSA PASTE, HARISSA",
+      "dataType": "Branded",
+      "confidence": 0.9,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 16.7,
+        "kcal": 83,
+        "sodium_mg": 583
+      },
+      "resolved": true
+    },
+    "harissa paste and fresh baguettes for serving": {
+      "display": "Harissa paste and fresh baguettes for serving",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "high-heat neutral frying oil": {
+      "display": "high-heat neutral frying oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "high-quality canned tuna": {
+      "display": "high-quality canned tuna",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "high-quality extra virgin olive oil": {
+      "display": "high-quality extra virgin olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "high-quality tuna in olive oil": {
+      "display": "high-quality tuna in olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "homemade garlic aioli": {
+      "display": "homemade garlic aioli",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "honey": {
+      "display": "honey",
+      "sites": [
+        "gochujang",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 169640,
+      "name": "Honey",
+      "dataType": "SR Legacy",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0.3,
+        "fiber_g": 0.2,
+        "iron_mg": 0.42,
+        "sodium_mg": 4,
+        "fat_g": 0,
+        "carbs_g": 82.4,
+        "kcal": 304,
+        "calcium_mg": 6,
+        "potassium_mg": 52,
+        "sugar_g": 82.1
+      },
+      "resolved": true
+    },
+    "honey or date syrup": {
+      "display": "honey or date syrup",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "honey or sugar": {
+      "display": "honey or sugar",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "hot green chilies": {
+      "display": "hot green chilies",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "hot green serrano/jalapeño chilies": {
+      "display": "hot green serrano/jalapeño chilies",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "hot paprika or cayenne": {
+      "display": "hot paprika or cayenne",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "hot water": {
+      "display": "hot water",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2705483,
+      "name": "Hot chocolate / cocoa, dry mix, made with water",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.75,
+      "per100g": {
+        "protein_g": 0.9,
+        "fat_g": 0.54,
+        "carbs_g": 11.27,
+        "kcal": 54,
+        "sugar_g": 8.82,
+        "fiber_g": 0.5,
+        "calcium_mg": 20,
+        "iron_mg": 0.16,
+        "potassium_mg": 96,
+        "sodium_mg": 71
+      },
+      "resolved": true
+    },
+    "jointed": {
+      "display": "jointed",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "juice of 1 lemon": {
+      "display": "Juice of 1 lemon",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "juice of 1/2 lemon": {
+      "display": "Juice of 1/2 lemon",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb liver": {
+      "display": "lamb liver",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb neck": {
+      "display": "lamb neck",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb or beef": {
+      "display": "lamb or beef",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb or beef cubes": {
+      "display": "lamb or beef cubes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb shoulder": {
+      "display": "lamb shoulder",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb shoulder or heart": {
+      "display": "lamb shoulder or heart",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb shoulder or shanks": {
+      "display": "lamb shoulder or shanks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lamb tripe/offal": {
+      "display": "lamb tripe/offal",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large bunch of fresh spearmint leaves": {
+      "display": "large bunch of fresh spearmint leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large cloves of garlic": {
+      "display": "large cloves of garlic",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large egg": {
+      "display": "large egg",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large eggplant": {
+      "display": "large eggplant",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large eggs": {
+      "display": "large eggs",
+      "sites": [
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large fresh eggs": {
+      "display": "large fresh eggs",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large green bell peppers": {
+      "display": "large green bell peppers",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large onion": {
+      "display": "large onion",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large onions": {
+      "display": "large onions",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large potatoes": {
+      "display": "large potatoes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large quinces": {
+      "display": "large quinces",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large russet potato": {
+      "display": "large russet potato",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large russet potatoes": {
+      "display": "large russet potatoes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large scallions": {
+      "display": "large scallions",
+      "sites": [
+        "kbbqguide",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large tomatoes": {
+      "display": "large tomatoes",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "large yellow onions": {
+      "display": "large yellow onions",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "leek": {
+      "display": "leek",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lemon": {
+      "display": "lemon",
+      "sites": [
+        "amore-a-tavola-ui",
+        "medina",
+        "norcook",
+        "recipe-reel",
+        "Rollcraft-sushi",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lemon juice": {
+      "display": "lemon juice",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "taquiza-recipe-platform",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2438529,
+      "name": "LEMON JUICE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "lemon wedges": {
+      "display": "Lemon wedges",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lemon wedges for serving": {
+      "display": "lemon wedges for serving",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lemons": {
+      "display": "lemons",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lentils": {
+      "display": "lentils",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2056216,
+      "name": "LENTILS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 24,
+        "fat_g": 1,
+        "carbs_g": 64,
+        "kcal": 360,
+        "sugar_g": 2,
+        "fiber_g": 10,
+        "calcium_mg": 36,
+        "iron_mg": 6,
+        "potassium_mg": 678,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "lettuce": {
+      "display": "lettuce",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2709789,
+      "name": "Lettuce, raw",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.9,
+      "per100g": {
+        "protein_g": 0.92,
+        "fat_g": 0.1,
+        "carbs_g": 3.69,
+        "kcal": 20,
+        "sugar_g": 1.1,
+        "fiber_g": 1.3,
+        "calcium_mg": 31,
+        "iron_mg": 0.26,
+        "potassium_mg": 249,
+        "sodium_mg": 23
+      },
+      "resolved": true
+    },
+    "licorice root": {
+      "display": "licorice root",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "lime": {
+      "display": "lime",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "recipe-reel",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2709306,
+      "name": "Lime souffle",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.9,
+      "per100g": {
+        "protein_g": 8.82,
+        "fat_g": 15.02,
+        "carbs_g": 39.83,
+        "kcal": 328,
+        "sugar_g": 37.32,
+        "fiber_g": 0.8,
+        "calcium_mg": 39,
+        "iron_mg": 1.34,
+        "potassium_mg": 143,
+        "sodium_mg": 79
+      },
+      "resolved": true
+    },
+    "live": {
+      "display": "live",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "long-grain basmati rice": {
+      "display": "long-grain basmati rice",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "malsouka or premium filo dough": {
+      "display": "Malsouka or premium filo dough",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "matzo": {
+      "display": "matzo",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "mayonnaise": {
+      "display": "mayonnaise",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "skillet",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2009400,
+      "name": "MAYONNAISE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 78.6,
+        "carbs_g": 0,
+        "kcal": 786,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 536
+      },
+      "resolved": true
+    },
+    "medium green bell pepper": {
+      "display": "medium green bell pepper",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "medium potatoes": {
+      "display": "medium potatoes",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "medium red onion": {
+      "display": "medium red onion",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "medium yellow onion": {
+      "display": "medium yellow onion",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "melted butter": {
+      "display": "melted butter",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "melted butter mixed with vegetable oil": {
+      "display": "Melted butter mixed with vegetable oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "milk": {
+      "display": "milk",
+      "sites": [
+        "colombia-by-fire",
+        "gochujang",
+        "medina",
+        "norcook",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 1909132,
+      "name": "MILK",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.39,
+        "fat_g": 2.12,
+        "carbs_g": 5.08,
+        "kcal": 55,
+        "sugar_g": 5.08,
+        "fiber_g": 0,
+        "calcium_mg": 127,
+        "iron_mg": 0,
+        "sodium_mg": 55
+      },
+      "resolved": true
+    },
+    "minced parsley": {
+      "display": "minced parsley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "neutral oil": {
+      "display": "neutral oil",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 1948234,
+      "name": "NEUTRAL COCONUT OIL",
+      "dataType": "Branded",
+      "confidence": 0.75,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 93.3,
+        "carbs_g": 0,
+        "kcal": 867,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "neutral or olive oil": {
+      "display": "neutral or olive oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "nutmeg": {
+      "display": "nutmeg",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "oil": {
+      "display": "oil",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "oil for frying almonds": {
+      "display": "Oil for frying almonds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "oil for shallow-frying": {
+      "display": "Oil for shallow-frying",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "olive oil": {
+      "display": "olive oil",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2710186,
+      "name": "Olive oil",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 100,
+        "carbs_g": 0,
+        "kcal": 900,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 1,
+        "iron_mg": 0.56,
+        "potassium_mg": 1,
+        "sodium_mg": 2
+      },
+      "resolved": true
+    },
+    "olives": {
+      "display": "olives",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "onion": {
+      "display": "onion",
+      "sites": [
+        "amore-a-tavola-ui",
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 2438059,
+      "name": "ONION",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 10.9,
+        "fat_g": 0.78,
+        "carbs_g": 59.4,
+        "kcal": 289,
+        "sugar_g": 7.03,
+        "fiber_g": 2.3,
+        "calcium_mg": 16,
+        "iron_mg": 3.52,
+        "sodium_mg": 430
+      },
+      "resolved": true
+    },
+    "onions": {
+      "display": "onions",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "orange blossom water": {
+      "display": "orange blossom water",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 1913495,
+      "name": "ALWADI, ORANGE BLOSSOM WATER, ORANGE BLOSSOM, ORANGE BLOSSOM",
+      "dataType": "Branded",
+      "confidence": 1.04,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "paprika": {
+      "display": "paprika",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "virality-food-app"
+      ],
+      "fdcId": 2052502,
+      "name": "PAPRIKA",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "pearl sugar for topping": {
+      "display": "pearl sugar for topping",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "peas": {
+      "display": "peas",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 2030118,
+      "name": "PEAS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.2,
+        "fat_g": 0.4,
+        "carbs_g": 9.6,
+        "kcal": 56,
+        "sugar_g": 4.8,
+        "fiber_g": 2.4,
+        "calcium_mg": 16,
+        "iron_mg": 1.15,
+        "sodium_mg": 240
+      },
+      "resolved": true
+    },
+    "peas and carrots": {
+      "display": "peas and carrots",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "pepper": {
+      "display": "pepper",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet"
+      ],
+      "fdcId": 1889244,
+      "name": "PEPPER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 66.7,
+        "kcal": 333,
+        "sugar_g": 0,
+        "fiber_g": 33.3,
+        "calcium_mg": 437,
+        "iron_mg": 28.9,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "pine nuts": {
+      "display": "pine nuts",
+      "sites": [
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "pitted prunes": {
+      "display": "pitted prunes",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2088975,
+      "name": "PITTED PRUNES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 2.5,
+        "fat_g": 0,
+        "carbs_g": 65,
+        "kcal": 270,
+        "sugar_g": 32.5,
+        "fiber_g": 5,
+        "calcium_mg": 50,
+        "iron_mg": 1.8,
+        "sodium_mg": 12
+      },
+      "resolved": true
+    },
+    "plain flour": {
+      "display": "plain flour",
+      "sites": [
+        "amore-a-tavola-ui",
+        "Bangersandmash",
+        "medina",
+        "norcook"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "plain msemen or trid sheets": {
+      "display": "plain msemen or trid sheets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "plum tomatoes": {
+      "display": "Plum Tomatoes",
+      "sites": [
+        "Fryup",
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "potato": {
+      "display": "potato",
+      "sites": [
+        "gochujang",
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "potatoes": {
+      "display": "potatoes",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "virality-food-app"
+      ],
+      "fdcId": 1864190,
+      "name": "POTATOES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 7.41,
+        "fat_g": 1.85,
+        "carbs_g": 74.1,
+        "kcal": 352,
+        "sugar_g": 14.8,
+        "fiber_g": 3.7,
+        "calcium_mg": 222,
+        "iron_mg": 1.33,
+        "potassium_mg": 1040,
+        "sodium_mg": 2220
+      },
+      "resolved": true
+    },
+    "powdered milk": {
+      "display": "powdered milk",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "powdered sugar": {
+      "display": "powdered sugar",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "skillet",
+        "the-neon-griddle"
+      ],
+      "fdcId": 2097157,
+      "name": "POWDERED SUGAR",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.85,
+        "fat_g": 17.3,
+        "carbs_g": 53.8,
+        "kcal": 385,
+        "sugar_g": 25,
+        "fiber_g": 1.9,
+        "calcium_mg": 77,
+        "iron_mg": 2.08,
+        "sodium_mg": 481
+      },
+      "resolved": true
+    },
+    "premium harissa paste": {
+      "display": "premium harissa paste",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "preserved lemon": {
+      "display": "preserved lemon",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2076581,
+      "name": "PRESERVED LEMON",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 6.67,
+        "carbs_g": 13.3,
+        "kcal": 100,
+        "sugar_g": 0,
+        "fiber_g": 6.7,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 1070
+      },
+      "resolved": true
+    },
+    "preserved lemon rind": {
+      "display": "preserved lemon rind",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "professionally cleaned sheep tripe": {
+      "display": "professionally cleaned sheep tripe",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "prunes": {
+      "display": "prunes",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2033920,
+      "name": "PRUNES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0.71,
+        "fat_g": 0,
+        "carbs_g": 30.7,
+        "kcal": 129,
+        "sugar_g": 16.4,
+        "fiber_g": 2.9,
+        "calcium_mg": 29,
+        "iron_mg": 0.26,
+        "potassium_mg": 214,
+        "sodium_mg": 25
+      },
+      "resolved": true
+    },
+    "puff pastry or phyllo dough": {
+      "display": "puff pastry or phyllo dough",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "pumpkin": {
+      "display": "pumpkin",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2434324,
+      "name": "PUMPKIN",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0.83,
+        "fat_g": 0,
+        "carbs_g": 8.33,
+        "kcal": 33,
+        "sugar_g": 3.33,
+        "fiber_g": 2.5,
+        "calcium_mg": 25,
+        "iron_mg": 1.5,
+        "potassium_mg": 208,
+        "sodium_mg": 4
+      },
+      "resolved": true
+    },
+    "quartered cabbage": {
+      "display": "quartered cabbage",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "rabbit": {
+      "display": "rabbit",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2705912,
+      "name": "Rabbit",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 30.14,
+        "fat_g": 8.34,
+        "carbs_g": 0,
+        "kcal": 204,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 20,
+        "iron_mg": 2.35,
+        "potassium_mg": 298,
+        "sodium_mg": 344
+      },
+      "resolved": true
+    },
+    "raisins": {
+      "display": "raisins",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ras el hanout": {
+      "display": "ras el hanout",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ras el hanout or m’sakhen blend": {
+      "display": "ras el hanout or m’sakhen blend",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw almonds": {
+      "display": "raw almonds",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "fdcId": 2539053,
+      "name": "RAW ALMONDS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 20,
+        "fat_g": 50,
+        "carbs_g": 23.3,
+        "kcal": 567,
+        "sugar_g": 3.33,
+        "fiber_g": 13.3,
+        "calcium_mg": 200,
+        "iron_mg": 3.6,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "raw argan fruit/nuts": {
+      "display": "raw argan fruit/nuts",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw eggs in shell": {
+      "display": "raw eggs in shell",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw eggs in shells": {
+      "display": "raw eggs in shells",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw hazelnuts": {
+      "display": "raw hazelnuts",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw sesame seeds": {
+      "display": "raw sesame seeds",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw turnips": {
+      "display": "raw turnips",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "raw white sesame seeds": {
+      "display": "raw white sesame seeds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "red bell pepper": {
+      "display": "red bell pepper",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "red chili flakes": {
+      "display": "red chili flakes",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 579086,
+      "name": "RED CHILI FLAKES",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0,
+        "protein_g": 0,
+        "kcal": 0
+      },
+      "resolved": true
+    },
+    "red olives": {
+      "display": "red olives",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "rice": {
+      "display": "rice",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 356554,
+      "name": "RICE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "calcium_mg": 28,
+        "iron_mg": 1.88,
+        "protein_g": 3.47,
+        "fat_g": 2.43,
+        "carbs_g": 26.4,
+        "kcal": 139,
+        "sugar_g": 1.39,
+        "fiber_g": 1.4,
+        "sodium_mg": 465
+      },
+      "resolved": true
+    },
+    "rind sliced": {
+      "display": "rind sliced",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "ripe tomatoes": {
+      "display": "ripe tomatoes",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "rosewater": {
+      "display": "rosewater",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2625898,
+      "name": "RASPBERRY & ROSEWATER PROBIOTIC SKYR, RASPBERRY",
+      "dataType": "Branded",
+      "confidence": 0.75,
+      "per100g": {
+        "protein_g": 9.33,
+        "fat_g": 2.67,
+        "carbs_g": 6.67,
+        "kcal": 87,
+        "sugar_g": 6,
+        "fiber_g": 0,
+        "calcium_mg": 100,
+        "iron_mg": 0,
+        "sodium_mg": 30
+      },
+      "resolved": true
+    },
+    "rougag or very thin unleavened flatbread": {
+      "display": "rougag or very thin unleavened flatbread",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "sachet active dry yeast": {
+      "display": "sachet active dry yeast",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "saffron": {
+      "display": "saffron",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "saffron threads": {
+      "display": "saffron threads",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 384416,
+      "name": "SAFFRON THREADS",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0,
+        "protein_g": 0,
+        "kcal": 0
+      },
+      "resolved": true
+    },
+    "salt": {
+      "display": "salt",
+      "sites": [
+        "amore-a-tavola-ui",
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "skillet",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "virality-food-app"
+      ],
+      "fdcId": 2162651,
+      "name": "SALT",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 1330,
+        "kcal": 0,
+        "sodium_mg": 39300
+      },
+      "resolved": true
+    },
+    "salt and freshly cracked black pepper": {
+      "display": "Salt and freshly cracked black pepper",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "salt and pepper": {
+      "display": "salt and pepper",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "salt only after tasting": {
+      "display": "Salt only after tasting",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "scrubbed": {
+      "display": "scrubbed",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "sea bass": {
+      "display": "sea bass",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2747668,
+      "name": "Sea bass, Chilean, frozen, wild caught",
+      "dataType": "Foundation",
+      "confidence": 0.89,
+      "per100g": {
+        "iron_mg": 0,
+        "potassium_mg": 236,
+        "sodium_mg": 109,
+        "fat_g": 16.6,
+        "calcium_mg": 6.82,
+        "protein_g": 14.9,
+        "carbs_g": 0.139
+      },
+      "resolved": true
+    },
+    "sea salt": {
+      "display": "sea salt",
+      "sites": [
+        "Bangersandmash",
+        "medina",
+        "norcook",
+        "Rollcraft-sushi",
+        "taquiza-recipe-platform"
+      ],
+      "fdcId": 2665262,
+      "name": "SEA SALT",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 25,
+        "fat_g": 25,
+        "carbs_g": 25,
+        "kcal": 500,
+        "sugar_g": 0,
+        "fiber_g": 25,
+        "calcium_mg": 500,
+        "iron_mg": 9,
+        "sodium_mg": 1000
+      },
+      "resolved": true
+    },
+    "seasoned tomato broth or couscous broth": {
+      "display": "seasoned tomato broth or couscous broth",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "semolina": {
+      "display": "semolina",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "semolina couscous": {
+      "display": "semolina couscous",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "sesame seeds": {
+      "display": "Sesame seeds",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "recipe-reel",
+        "Rollcraft-sushi",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2707586,
+      "name": "Sesame seeds",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 20.45,
+        "fat_g": 61.21,
+        "carbs_g": 11.73,
+        "kcal": 631,
+        "sugar_g": 0.48,
+        "fiber_g": 11.6,
+        "calcium_mg": 60,
+        "iron_mg": 6.36,
+        "potassium_mg": 370,
+        "sodium_mg": 47
+      },
+      "resolved": true
+    },
+    "shoulder": {
+      "display": "shoulder",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "skewers": {
+      "display": "Skewers",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "skins of 4 yellow onions": {
+      "display": "skins of 4 yellow onions",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small dried red chili": {
+      "display": "small dried red chili",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small onion": {
+      "display": "small onion",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "norcook"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small pasta or semolina dumplings": {
+      "display": "small pasta or semolina dumplings",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small raw red beet": {
+      "display": "small raw red beet",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small thick round pita pockets": {
+      "display": "small thick round pita pockets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "small tomato": {
+      "display": "small tomato",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "smen": {
+      "display": "smen",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "smen or butter": {
+      "display": "smen or butter",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "snapper": {
+      "display": "snapper",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "soft butter": {
+      "display": "soft butter",
+      "sites": [
+        "medina",
+        "norcook",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "soft flatbread wraps": {
+      "display": "soft flatbread wraps",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "spinach or swiss chard leaves": {
+      "display": "spinach or Swiss chard leaves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "split fava beans": {
+      "display": "split fava beans",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2439040,
+      "name": "SPLIT AND PEELED FAVA BEANS",
+      "dataType": "Branded",
+      "confidence": 0.73,
+      "per100g": {
+        "protein_g": 18.2,
+        "fat_g": 1.02,
+        "carbs_g": 65.9,
+        "kcal": 340,
+        "sugar_g": 0,
+        "fiber_g": 8,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 45
+      },
+      "resolved": true
+    },
+    "stale bread": {
+      "display": "stale bread",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "stale rustic bread": {
+      "display": "stale rustic bread",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 2546130,
+      "name": "RUSTIC BREAD MIX, RUSTIC",
+      "dataType": "Branded",
+      "confidence": 0.75,
+      "per100g": {
+        "protein_g": 12.1,
+        "fat_g": 1.52,
+        "carbs_g": 69.7,
+        "kcal": 333,
+        "sugar_g": 0,
+        "fiber_g": 6.1,
+        "calcium_mg": 0,
+        "iron_mg": 2.42,
+        "potassium_mg": 0,
+        "sodium_mg": 909
+      },
+      "resolved": true
+    },
+    "stems removed": {
+      "display": "stems removed",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "stock or water": {
+      "display": "stock or water",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "stuffed osban sausages": {
+      "display": "stuffed Osban sausages",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "such as cod": {
+      "display": "such as cod",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "sugar": {
+      "display": "sugar",
+      "sites": [
+        "amore-a-tavola-ui",
+        "colombia-by-fire",
+        "gochujang",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2707988,
+      "name": "Cookie, sugar or plain, sugar free",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 1.23,
+      "per100g": {
+        "protein_g": 10.34,
+        "fat_g": 31.03,
+        "carbs_g": 50.52,
+        "kcal": 523,
+        "sugar_g": 0,
+        "fiber_g": 3.4,
+        "calcium_mg": 0,
+        "iron_mg": 2.48,
+        "potassium_mg": 202,
+        "sodium_mg": 448
+      },
+      "resolved": true
+    },
+    "sugar or warm honey for topping": {
+      "display": "sugar or warm honey for topping",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "sweet paprika": {
+      "display": "sweet paprika",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 1136972,
+      "name": "SWEET PAPRIKA",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "kcal": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "sweet potato": {
+      "display": "sweet potato",
+      "sites": [
+        "medina",
+        "Rollcraft-sushi",
+        "skillet"
+      ],
+      "fdcId": 477475,
+      "name": "SWEET POTATO",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "calcium_mg": 26,
+        "iron_mg": 0.58,
+        "protein_g": 5.45,
+        "fat_g": 1.28,
+        "carbs_g": 16.4,
+        "kcal": 106,
+        "sugar_g": 4.17,
+        "fiber_g": 1.9,
+        "sodium_mg": 173
+      },
+      "resolved": true
+    },
+    "sweet red horn peppers": {
+      "display": "sweet red horn peppers",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tabil": {
+      "display": "tabil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tahini paste": {
+      "display": "tahini paste",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tamarind paste": {
+      "display": "tamarind paste",
+      "sites": [
+        "medina",
+        "silk-spice-archive",
+        "skillet",
+        "virality-food-app"
+      ],
+      "fdcId": 2709269,
+      "name": "Tamarind",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.9,
+      "per100g": {
+        "protein_g": 2.8,
+        "fat_g": 0.6,
+        "carbs_g": 62.5,
+        "kcal": 239,
+        "sugar_g": 38.8,
+        "fiber_g": 5.1,
+        "calcium_mg": 74,
+        "iron_mg": 2.8,
+        "potassium_mg": 628,
+        "sodium_mg": 28
+      },
+      "resolved": true
+    },
+    "tentacles left whole": {
+      "display": "tentacles left whole",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "toasted almonds": {
+      "display": "toasted almonds",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "toasted sesame seeds or fried blanched almonds": {
+      "display": "toasted sesame seeds or fried blanched almonds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tomato and onion slices": {
+      "display": "tomato and onion slices",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tomato paste": {
+      "display": "tomato paste",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "silk-spice-archive",
+        "skillet",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 2433254,
+      "name": "TOMATO PASTE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 3.03,
+        "fat_g": 0,
+        "carbs_g": 18.2,
+        "kcal": 91,
+        "sugar_g": 12.1,
+        "fiber_g": 6.1,
+        "calcium_mg": 0,
+        "iron_mg": 0,
+        "potassium_mg": 818,
+        "sodium_mg": 45
+      },
+      "resolved": true
+    },
+    "tomato puree": {
+      "display": "tomato puree",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tomato sauce": {
+      "display": "tomato sauce",
+      "sites": [
+        "medina",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "fdcId": 356527,
+      "name": "TOMATO SAUCE",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "fat_g": 0,
+        "calcium_mg": 0,
+        "iron_mg": 1.2,
+        "protein_g": 1.67,
+        "carbs_g": 6.67,
+        "kcal": 33,
+        "sugar_g": 3.33,
+        "fiber_g": 1.7,
+        "sodium_mg": 33
+      },
+      "resolved": true
+    },
+    "tomato slices": {
+      "display": "tomato slices",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tomatoes": {
+      "display": "tomatoes",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "traditional moroccan khobz bread": {
+      "display": "traditional Moroccan Khobz bread",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tubes cut into 1/2-inch rings": {
+      "display": "tubes cut into 1/2-inch rings",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "tuna": {
+      "display": "tuna",
+      "sites": [
+        "medina",
+        "Rollcraft-sushi",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "turbinado sugar": {
+      "display": "turbinado sugar",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 1914921,
+      "name": "TURBINADO SUGAR",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 100,
+        "kcal": 375,
+        "sugar_g": 100,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "turmeric": {
+      "display": "turmeric",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "turnip": {
+      "display": "turnip",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 170470,
+      "name": "Turnip greens and turnips, frozen, unprepared",
+      "dataType": "SR Legacy",
+      "confidence": 0.9,
+      "per100g": {
+        "carbs_g": 3.39,
+        "fat_g": 0.19,
+        "kcal": 21,
+        "calcium_mg": 114,
+        "potassium_mg": 82,
+        "protein_g": 2.46,
+        "fiber_g": 2.4,
+        "iron_mg": 1.63,
+        "sodium_mg": 18
+      },
+      "resolved": true
+    },
+    "turnips": {
+      "display": "turnips",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 170465,
+      "name": "Turnips, raw",
+      "dataType": "SR Legacy",
+      "confidence": 0.86,
+      "per100g": {
+        "carbs_g": 6.43,
+        "kcal": 28,
+        "fiber_g": 1.8,
+        "iron_mg": 0.3,
+        "sodium_mg": 67,
+        "protein_g": 0.9,
+        "fat_g": 0.1,
+        "calcium_mg": 30,
+        "potassium_mg": 191,
+        "sugar_g": 3.8
+      },
+      "resolved": true
+    },
+    "unsalted butter": {
+      "display": "unsalted butter",
+      "sites": [
+        "amore-a-tavola-ui",
+        "Fryup",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "fdcId": 2056610,
+      "name": "UNSALTED BUTTER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 78.6,
+        "carbs_g": 0,
+        "kcal": 714,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "vegetable oil": {
+      "display": "vegetable oil",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "Rollcraft-sushi",
+        "Soup-Imitation"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vegetable oil for deep frying": {
+      "display": "Vegetable oil for deep frying",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vegetable oil for pan-searing": {
+      "display": "vegetable oil for pan-searing",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vegetable oil for stretching": {
+      "display": "vegetable oil for stretching",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vegetable or canola oil": {
+      "display": "vegetable or canola oil",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vegetable or canola oil for deep frying": {
+      "display": "vegetable or canola oil for deep frying",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "vermicelli noodles": {
+      "display": "vermicelli noodles",
+      "sites": [
+        "medina",
+        "skillet"
+      ],
+      "fdcId": 1765675,
+      "name": "ORGANIC VERMICELLI NOODLES",
+      "dataType": "Branded",
+      "confidence": 0.73,
+      "per100g": {
+        "protein_g": 9.09,
+        "fat_g": 1.82,
+        "carbs_g": 78.2,
+        "kcal": 358,
+        "sugar_g": 1.82,
+        "fiber_g": 1.8,
+        "calcium_mg": 18,
+        "iron_mg": 0,
+        "potassium_mg": 102,
+        "sodium_mg": 0
+      },
+      "resolved": true
+    },
+    "warm milk": {
+      "display": "warm milk",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "warm soft-boiled egg": {
+      "display": "warm soft-boiled egg",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "warm water": {
+      "display": "warm water",
+      "sites": [
+        "colombia-by-fire",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "warm water mixed with 2 tbsp rosewater": {
+      "display": "warm water mixed with 2 tbsp rosewater",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "warqa or thawed phyllo": {
+      "display": "warqa or thawed phyllo",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "washed and very well dried": {
+      "display": "washed and very well dried",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "water": {
+      "display": "water",
+      "sites": [
+        "Bangersandmash",
+        "colombia-by-fire",
+        "hongkitchen",
+        "kbbqguide",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "Rollcraft-sushi",
+        "silk-spice-archive",
+        "skillet",
+        "taquiza-recipe-platform",
+        "virality-food-app"
+      ],
+      "fdcId": 2047057,
+      "name": "WATER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 10.8,
+        "kcal": 42,
+        "sugar_g": 10.8,
+        "sodium_mg": 8
+      },
+      "resolved": true
+    },
+    "water or stock": {
+      "display": "water or stock",
+      "sites": [
+        "colombia-by-fire",
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "water to cover by 1 inch/2.5 cm": {
+      "display": "Water to cover by 1 inch/2.5 cm",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wedge pumpkin": {
+      "display": "wedge pumpkin",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wedged": {
+      "display": "wedged",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wheat berries": {
+      "display": "wheat berries",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wheat berries or barley": {
+      "display": "wheat berries or barley",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "white onion": {
+      "display": "white onion",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "taquiza-recipe-platform",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "white sesame seeds": {
+      "display": "white sesame seeds",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "white vinegar": {
+      "display": "white vinegar",
+      "sites": [
+        "colombia-by-fire",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whitefish fillets": {
+      "display": "whitefish fillets",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whitefish steaks": {
+      "display": "whitefish steaks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole aniseeds": {
+      "display": "whole aniseeds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole bulb of garlic": {
+      "display": "whole bulb of garlic",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole chicken": {
+      "display": "whole chicken",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "modern-heritage-kitchen"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole cloves": {
+      "display": "whole cloves",
+      "sites": [
+        "medina",
+        "modern-heritage-kitchen",
+        "silk-spice-archive",
+        "taquiza-recipe-platform"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole coriander seeds": {
+      "display": "whole coriander seeds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole cumin seeds": {
+      "display": "whole cumin seeds",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole cured fermented feseekh mullet fish": {
+      "display": "whole cured fermented feseekh mullet fish",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole garlic head": {
+      "display": "whole garlic head",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole milk": {
+      "display": "whole milk",
+      "sites": [
+        "amore-a-tavola-ui",
+        "Bangersandmash",
+        "colombia-by-fire",
+        "gochujang",
+        "medina",
+        "modern-heritage-kitchen",
+        "norcook",
+        "silk-spice-archive",
+        "Soup-Imitation",
+        "taquiza-recipe-platform",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole peeled garlic cloves": {
+      "display": "whole peeled garlic cloves",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole peeled tomatoes": {
+      "display": "whole peeled tomatoes",
+      "sites": [
+        "medina",
+        "the-neon-griddle"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole rainbow trout": {
+      "display": "whole rainbow trout",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole saffron threads": {
+      "display": "whole saffron threads",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "whole whitebait fish": {
+      "display": "whole whitebait fish",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wild cardoon stalks": {
+      "display": "wild cardoon stalks",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "wildflower honey": {
+      "display": "wildflower honey",
+      "sites": [
+        "medina"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "yeast": {
+      "display": "yeast",
+      "sites": [
+        "hongkitchen",
+        "medina",
+        "norcook",
+        "skillet",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "yellow onion": {
+      "display": "yellow onion",
+      "sites": [
+        "kbbqguide",
+        "medina",
+        "the-neon-griddle",
+        "virality-food-app"
+      ],
+      "resolved": false,
+      "confidence": 0
+    },
+    "zucchini": {
+      "display": "zucchini",
+      "sites": [
+        "gochujang",
+        "medina",
+        "modern-heritage-kitchen",
+        "skillet"
+      ],
+      "resolved": false,
+      "confidence": 0
+    }
+  }
+}
