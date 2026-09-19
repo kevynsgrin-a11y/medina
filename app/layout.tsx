@@ -114,6 +114,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geist.variable} ${playfair.variable} bg-background`}>
       <body className="font-sans antialiased">
+        {/* ga4: portfolio measurement stream (React hoists to head) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3Z16B5E15" />
+        <script dangerouslySetInnerHTML={{ __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-D3Z16B5E15');" }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd).replace(/</g, '\\u003c') }}
