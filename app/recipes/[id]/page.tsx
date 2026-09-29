@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { RECIPES } from '@/lib/recipes'
 import { getRecipeDetail } from '@/lib/recipe-details'
+import { recipeSeoDescription, recipeSeoTitle } from '@/lib/seo'
 import { buildRecipeJsonLd, recipeUrl, SITE_NAME } from '@/lib/schema'
 import { DetailNav } from '@/components/recipe-detail/detail-nav'
 import { RecipeHero } from '@/components/recipe-detail/recipe-hero'
@@ -30,15 +31,16 @@ export async function generateMetadata({
   const detail = getRecipeDetail(Number(id))
   if (!recipe || !detail) return {}
 
-  const description = detail.originStatus
+  const title = recipeSeoTitle(recipe)
+  const description = recipeSeoDescription(recipe)
   const url = recipeUrl(recipe.id)
 
   return {
-    title: recipe.name,
+    title,
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: recipe.name,
+      title,
       description,
       type: 'article',
       url,
@@ -53,7 +55,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: recipe.name,
+      title,
       description,
       images: [recipe.image],
     },
@@ -81,7 +83,7 @@ export default async function RecipeDetailPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\u003c') }}
       />
       <DetailNav />
       <main id="main-content" className="relative min-h-screen">
