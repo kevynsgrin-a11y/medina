@@ -2,13 +2,12 @@
 // page-two SERP push. Query/position data lives in the PR description;
 // overrides exist only where the ranking query's phrasing differs from the
 // dish name. Facts (region, category, blurb) stay as authored in recipes.ts.
-// The title suffix uses the domain brand ("Taste of Medina") rather than the
-// long site name so titles stay inside the ~60-character SERP budget.
+// Titles carry no brand suffix here — app/layout.tsx appends the site name
+// via its title template, and the SERP budget is ~60 characters (the first
+// deploy doubled the suffix; this keeps titles single-branded).
 import type { Recipe } from './recipes'
 
-const SITE = 'Taste of Medina'
-
-// id -> title fragment before ` | ${SITE}`.
+// id -> title text (brand appended by the layout template).
 const TITLE_OVERRIDES: Record<number, string> = {
   // GSC Sep: "bakoula" pos 14, "bakoula recipe" 10, "bakoula moroccan" 11
   49: 'Bakoula Recipe — Moroccan Mallow Stew',
@@ -24,8 +23,7 @@ const DESCRIPTION_OVERRIDES: Record<number, string> = {
 }
 
 export function recipeSeoTitle(recipe: Recipe): string {
-  const base = TITLE_OVERRIDES[recipe.id] ?? `${recipe.name} Recipe`
-  return `${base} | ${SITE}`
+  return TITLE_OVERRIDES[recipe.id] ?? `${recipe.name} Recipe`
 }
 
 export function recipeSeoDescription(recipe: Recipe): string {
