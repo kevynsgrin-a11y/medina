@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { RECIPES } from '@/lib/recipes'
 import { getRecipeDetail } from '@/lib/recipe-details'
+import { getPacket } from '@/lib/packet-bundle';
+import { renderPacketArticle } from '@/lib/packet-render';
 import { recipeSeoDescription, recipeSeoTitle } from '@/lib/seo'
 import { buildRecipeJsonLd, recipeUrl, SITE_NAME } from '@/lib/schema'
 import { DetailNav } from '@/components/recipe-detail/detail-nav'
@@ -72,6 +74,21 @@ export default async function RecipeDetailPage({
   const detail = getRecipeDetail(Number(id))
 
   if (!recipe || !detail) notFound()
+
+  // Recipe Finalz presentation-packet rollout (markup contract v1)
+  const packet = getPacket(id)
+  if (packet) {
+    const html = renderPacketArticle(packet, recipe.image)
+    return (
+      <>
+        <DetailNav />
+        <main id="main-content" className="relative min-h-screen">
+          <div className="mx-auto max-w-3xl px-5 py-10 md:px-8" dangerouslySetInnerHTML={{ __html: html }} />
+        </main>
+        <SiteFooter />
+      </>
+    )
+  }
 
   const related = RECIPES.filter(
     (r) => r.category === recipe.category && r.id !== recipe.id,
